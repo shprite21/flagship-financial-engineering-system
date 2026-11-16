@@ -1,0 +1,66 @@
+.portfolio-research {
+  position: relative;
+}
+
+.research-parameters,
+.research-analysis {
+  min-height: 0;
+  max-height: 70svh;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+  padding-right: 8px;
+  padding-bottom: 8px;
+}
+
+@media (min-width: 1280px) {
+  .main-workspace.research-dashboard {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .research-dashboard .portfolio-research,
+  .research-dashboard .research-workspace,
+  .research-dashboard .research-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+  }
+
+  .research-dashboard .research-content > :not(.research-columns) {
+    flex-shrink: 0;
+  }
+
+  .research-dashboard .research-columns {
+    flex: 1;
+    min-height: 0;
+    overflow: hidden;
+    align-items: stretch;
+    grid-template-columns: 350px minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr);
+  }
+
+  .research-dashboard .research-parameters,
+  .research-dashboard .research-analysis {
+    height: 100%;
+    max-height: none;
+  }
+
+  .research-dashboard > .workspace-footnote {
+    flex-shrink: 0;
+    margin-top: 12px;
+    padding-top: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .research-parameters,
+  .research-analysis {
+    scroll-behavior: auto;
+  }
+}
+
+.main-workspace.research-dashboard { padding-top: 8px; }

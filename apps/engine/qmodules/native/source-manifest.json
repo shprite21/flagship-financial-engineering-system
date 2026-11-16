@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "sha256": "cb4ec0c6fbc2337bae5b0888f8193e9ec524e7060fd449df818a1f0ff4916117",
+      "path": "simulation/core/model.hpp"
+    },
+    {
+      "sha256": "fdc0f31e1f49018ae363281befff3596b7465eb567ee8106cce109fe665c576f",
+      "path": "simulation/cpu/economy.cpp"
+    },
+    {
+      "sha256": "0065f9d06acf1486633c74f30534017dfd367172d8f0c4a2668625493fcd8f10",
+      "path": "simulation/cuda/economy.cu"
+    },
+    {
+      "sha256": "6110be15bbaeac25ac83f60acdad379d92712504d745f4f648414590365a000c",
+      "path": "simulation/experiments/main.cpp"
+    },
+    {
+      "sha256": "1f12a4321e32da2dbe93623fccaf6dc264529669ca4792062b1765afaaa9de92",
+      "path": "tests/test_engine.cpp"
+    },
+    {
+      "sha256": "e660dd1a7385071626b52fd1340c9247a8d5898a390dbebac7b9f8f9a2bed938",
+      "path": "CMakeLists.txt"
+    },
+    {
+      "sha256": "9c068d8858206af8229a0ad2642cef785c526f2471671aade87e3422f48040b1",
+      "path": "research/analyze.py"
+    }
+  ],
+  "source": "projects/Parallel-Agent-Based-Economic-Financial-Market-Simulator"
+}

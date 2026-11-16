@@ -1,0 +1,212 @@
+{
+  "description": "Changes to copied V1 source; new lifecycle modules/docs/tests are additional files in V2.",
+  "verified_at_utc": "2026-10-05T12:00:54.908279+00:00",
+  "modified_baseline_files": 41,
+  "files": [
+    {
+      "path": ".gitignore",
+      "v1_sha256": "0c8b6a8a66428c60444fc785d00725ff80396a8f1315ceacb1d1f8c0d7b9df81",
+      "v2_sha256": "b4e53bfe6d51426d15d1ead5e9bf8bc14629176a36d9c3cf69705cc5b595e907"
+    },
+    {
+      "path": "apps/engine/analytics/factor_exposure.py",
+      "v1_sha256": "d87c334a0c979f87f16b275aa91f4a0707da0dbb031e4e4e51cead397f7353b2",
+      "v2_sha256": "04b3bd0a5e5eee843863132f76509687c2bec8c138536e2c6913b3ccfc6d6478"
+    },
+    {
+      "path": "apps/engine/analytics/metrics.py",
+      "v1_sha256": "6158ecdd112da46731058e2f69f936c94c5600d3a2bc7ec98c3fec5c73f1b320",
+      "v2_sha256": "b2963f50f82a02029bdc24a20f7b4e4aaa49c525dc73e2c36d787f2620ae46e9"
+    },
+    {
+      "path": "apps/engine/analytics/tearsheet.py",
+      "v1_sha256": "9d1743935efce05e4ac3461ffe850b889908eb4c0963ec37484b66e7e41b880b",
+      "v2_sha256": "e55999285e3bf40741b88764d0ebd2e9a9ea300724d752409f3967107edba037"
+    },
+    {
+      "path": "apps/engine/apps/research_api.py",
+      "v1_sha256": "62ea1f97c95404e7714e68d6d9ea26c0e1f05eb14f47ff93b7dfd84d0e0febac",
+      "v2_sha256": "1e9dd4040495fd581b66b9cbac15539d87c6b1f3081f4562f32820d9ec113684"
+    },
+    {
+      "path": "apps/engine/backtesting/engine.py",
+      "v1_sha256": "489b9503521649616b25a1ce758c103b11f47c857603e639613fd1e49ca852c0",
+      "v2_sha256": "fac7f713c3c855b96bd9fe468b32856b500dfa824278549f847c4e82cc90af7a"
+    },
+    {
+      "path": "apps/engine/data/features.py",
+      "v1_sha256": "a5fa09e8da8f417f1248f6d4a964b363637228b215089545e5bea672f2dd2497",
+      "v2_sha256": "a9d18b93a4febd044ac3a38f43dbfc8f8b96cab6ef85ca729cd3921e29400ebe"
+    },
+    {
+      "path": "apps/engine/data/models.py",
+      "v1_sha256": "1f55af264f89e503cf4fd3491e5813a8cf39b2669217859a14017bbc80be634b",
+      "v2_sha256": "e19ffe9a13681ab066a2849b83db0d716e9c44a4ae7754ebf2b8d931315b9a5d"
+    },
+    {
+      "path": "apps/engine/flagship_api.py",
+      "v1_sha256": "83637ac0048e0219e9f13f6d46a9d45ad896ccf59e44c58ebd7a63b9f7a3f0aa",
+      "v2_sha256": "c0683faa5d58927e7b0a8c355bdb06b8a1b702eaed6dbd20d0424be728fbfd2b"
+    },
+    {
+      "path": "apps/engine/paper/api.py",
+      "v1_sha256": "bb17ed080961733128c730d6282a19f0a619ec76a8ff62f9c0028ab1a1b218c2",
+      "v2_sha256": "e572941d917c97243c9b0067b341a0b3d012ab72c62ca0c5e8dff4e89f7d2539"
+    },
+    {
+      "path": "apps/engine/paper/strategies.py",
+      "v1_sha256": "09af3709293e537a18dfcf20091a2c5e07ef91afbaa7261740c14586243cc567",
+      "v2_sha256": "fe75731ab11de64e1f3a8e0f78aa9d18c392c8c8a6667607770202a3cf2259bd"
+    },
+    {
+      "path": "apps/engine/portfolio/allocation.py",
+      "v1_sha256": "af74e41cebd6321bd28c2d32c4f419855bdb572b101b0787280b3a2e62101e99",
+      "v2_sha256": "9380f660c3e4b87d191563c1c2823f448f1a5160913325ff4a022ad403281402"
+    },
+    {
+      "path": "apps/engine/qresearch/modeling.py",
+      "v1_sha256": "d8c41712864b40ecae101f59ea8b1163bd2c262e2102c057c4b5213e730398a9",
+      "v2_sha256": "bf51946c5eb912cba51a6268f4ff62422b99331c5df877e544560ebab0a82cad"
+    },
+    {
+      "path": "apps/engine/regime_detection/hmm.py",
+      "v1_sha256": "b0b7f2387d894c3ce100ebe884c543e54202cb6c7fce8f822d0870a93116b728",
+      "v2_sha256": "53dc6480a24f10abdcf22b4fa7ff6b027fbdb66f55d2027cedc2b4235f282bcf"
+    },
+    {
+      "path": "apps/engine/research/pipeline.py",
+      "v1_sha256": "a0555a0ebc82013fc8adcdaa9f403a0502e3a4f3aa0b5ef3fd3447c007c0d1c7",
+      "v2_sha256": "b1e0b4372ec6251e2c01e74dbcb14d0213eb046210f91beb246e5bb0b371c78b"
+    },
+    {
+      "path": "apps/engine/research/survival/methods.py",
+      "v1_sha256": "dbc26358fd7f823b502d5a9ed9a083dcce14751d2df80281922f86fe1834610a",
+      "v2_sha256": "43d08e93afc1fcfc8c7fa84fb072fc7e5380490bdf70e0fee44f7cac02791d74"
+    },
+    {
+      "path": "apps/engine/research/survival/models.py",
+      "v1_sha256": "19470017f388ffe49e60c5fdc37b165bfb0bb43b683cc7640ba2532902fb778e",
+      "v2_sha256": "0d48f6abd73d539acb09f095a24cafa8f9d2ece4e17c657e38ebb1689636c243"
+    },
+    {
+      "path": "apps/engine/research/survival/statistics.py",
+      "v1_sha256": "8a8337abdd03c80b6aa743a79aaedcbc4ab2f4e844d5712869e5db8dd9ef8643",
+      "v2_sha256": "8b8f01cd8979879151952fcc6a0fb59b6e9c8132d8a21014452c7ce43aeec58c"
+    },
+    {
+      "path": "apps/engine/research/workspace.py",
+      "v1_sha256": "b368370fd50fb11c66b2a973ccc3362f10d12533371ae49157a5b3ed9b1ec290",
+      "v2_sha256": "21e2ba450ccdd6a5e506bbef479b71c0d81c0c3236486e28c7e331778def539a"
+    },
+    {
+      "path": "apps/engine/scripts/run_research.py",
+      "v1_sha256": "9831888713a6acc545b6547a41482f062c35bd7fec2e8d3c4e2634222731d8f7",
+      "v2_sha256": "aba038272f5313d638d64475f0eae49e3367048dfd01ec5e6f6d5bf232539789"
+    },
+    {
+      "path": "apps/engine/tests/test_survival.py",
+      "v1_sha256": "9d608a05558ce77fb00a4bc6d431740e41da5ec3b1b9a64afe22a184e52e624a",
+      "v2_sha256": "a9d7c049464d16375c2d8c33033aa3422f93360d3bac7bd7b9e0141b1f45fe11"
+    },
+    {
+      "path": "apps/gateway/quant-pool.mjs",
+      "v1_sha256": "f4444710a69ae405bc39ad28a971d1b8c5afece3a6dd814e1ced791d1d7e925d",
+      "v2_sha256": "62e8982ef78539144c5487f8257c3ed6af02c6b7f1633cefb553251072e55ee8"
+    },
+    {
+      "path": "apps/gateway/server.mjs",
+      "v1_sha256": "54987b5dfc3a524accf5b50754b1ec5394c4f634eebc4f307fbb44dbb69a4511",
+      "v2_sha256": "6a908845ff766931e63009b242e3318fa4b37e02a220c1065043317aea45b51f"
+    },
+    {
+      "path": "apps/gateway/tests/alpaca-paper-routes.test.mjs",
+      "v1_sha256": "6e3f249c55475f354bcc3db462dc94edb2cd7b70751663ba0834bc9c184b8b95",
+      "v2_sha256": "012be6ea774473d2e3db64e19a8105aced68f7e56e8a94ecbd74fa376d0ea92d"
+    },
+    {
+      "path": "apps/gateway/tests/connections.test.mjs",
+      "v1_sha256": "2b24af171434816f33b5f068339dbe4bb9405b33cc3627c69b22a29e274ca008",
+      "v2_sha256": "c75a09862a6804c294aaa7eb10f4c806a486036f59c4e594b1945fb72aeafdef"
+    },
+    {
+      "path": "apps/gateway/tests/flagship-runtime.mjs",
+      "v1_sha256": "485074d9a978bb2d0a9e8ee293d3cfbc44d18af22576c451369e30ae6330a679",
+      "v2_sha256": "39544f236f2418cf0667b79f0a6a0af106ae06407b58d066f5b90284b069c6fb"
+    },
+    {
+      "path": "apps/gateway/tests/providers-runtime.test.mjs",
+      "v1_sha256": "a2e5e919057728a9f7fc21b8bf091cefe4591ebec70e97acb4d7573b086c8588",
+      "v2_sha256": "37a6f9441a336ddec8b934d854779e512adfee127e3054df526d3eb1a3923e82"
+    },
+    {
+      "path": "apps/gateway/tests/survival-runtime.test.mjs",
+      "v1_sha256": "4a7a8c5af1032cb7290a492a40961e989461930a911a0ba7df7ae5b2f2486b33",
+      "v2_sha256": "4fbf3ce3043ff80bedf7b3f8a8c7874877a961c8b0b623021b945c23bd7342ff"
+    },
+    {
+      "path": "apps/web/components/flagship/research-workspace.tsx",
+      "v1_sha256": "e8f1bea668052b060cc75f551ccd8c32fedcdcf523095641cd8befa8887bd880",
+      "v2_sha256": "cb414bfc3b3a9923f695fd61be2669029b9dd30e0a8be293b3ec45b0539dddab"
+    },
+    {
+      "path": "apps/web/components/terminal.tsx",
+      "v1_sha256": "586af8056be6bcdeda1f0599229f72b34362169c8002d32a02761e8d95fe5b28",
+      "v2_sha256": "daaddf840e44320175e4ca728109772e18213d792d064f49085efae911c30c7d"
+    },
+    {
+      "path": "apps/web/lib/flagship/research.ts",
+      "v1_sha256": "7d7b76d0964cae60fd182df76fd6cb8334fcfa83716780a7260b9e5331ca4edb",
+      "v2_sha256": "1e4c4b6aa48c1e09b8941b7a20d1d12a847a3ce3ab095ca7c496e879461dfdeb"
+    },
+    {
+      "path": "apps/web/package.json",
+      "v1_sha256": "3bff4c44f6e37c918157a64fe4640b244a8cd8da415d0549aa793d644a3c4f03",
+      "v2_sha256": "5dd6132d143047556197b99367824bb3a6910039056eece3d9ecf11f886fedd7"
+    },
+    {
+      "path": "apps/web/README.md",
+      "v1_sha256": "daba3d5088dfbb85b2e983fbedd5c5b0157d66028648064bb17f404954bb9f21",
+      "v2_sha256": "45c2424b8ea593d83c2b893616e05818d0463dc0f7155d1c48bef07059818776"
+    },
+    {
+      "path": "apps/web/scripts/smoke-api.mjs",
+      "v1_sha256": "3f15ff17a61f28f9dd43dd02e8b4bb7711c63ffe43a404ed86a6c9ed5876bad4",
+      "v2_sha256": "4545c138a5222249baf45e94401bb1f5af1459c996dad32635849c4be792df81"
+    },
+    {
+      "path": "apps/web/vite.config.ts",
+      "v1_sha256": "3c4df1c0fec76624a6eea88d8f062faef75674a30b405031679aeb66d05357a6",
+      "v2_sha256": "2a9470a669930c3c9f30f4c467c854ef1b99e15ef6f300e31ad18da89451c967"
+    },
+    {
+      "path": "docs/connections.md",
+      "v1_sha256": "8799bc6572d399c535b57f2c3c87914117f529634c4e7c5e477ad08057f1aa12",
+      "v2_sha256": "f432be5d5f6f7b90f16f360321a0e36d3387801ee46b8f0816180e8a3b3abe26"
+    },
+    {
+      "path": "docs/flagship.md",
+      "v1_sha256": "757be32a238aa6aa69f8c382d26294d960af918c2340f61817de27ad48c5c7d7",
+      "v2_sha256": "e64b2fd5cbd2d3ce9bcddc7176e5faa0096188becf6398391d35ca8dde1c6b07"
+    },
+    {
+      "path": "docs/implementation.md",
+      "v1_sha256": "e071f93f7bffb432f80616e140cea68822e4fb819df3850aa81fe134dc6d1638",
+      "v2_sha256": "1ad461d5280a80daf04176d88b423f50bb87287e7474c10413c9928391bc70d6"
+    },
+    {
+      "path": "docs/strategy-survival.md",
+      "v1_sha256": "be9397c3a0e8700798366a27f25b732b570ebd3c4b851d917ac0b116ad0f8e5f",
+      "v2_sha256": "d34175de01c397adc69ede5abbf3f7069e384b787ec813208d2c50ecc9f1e883"
+    },
+    {
+      "path": "README.md",
+      "v1_sha256": "778fdf47823760179c7776f225971661cacffdf60bdbac48399d4fac9b33d2ed",
+      "v2_sha256": "5efa5e7ebe76e29286f908818162214a9e13fc2cdf97ee5624846cdbda9fa9b4"
+    },
+    {
+      "path": "start-q21.ps1",
+      "v1_sha256": "83c3b86325367bfd75c1a0fb34951ffd314db263a0d40a2153a4f9d5cccb0489",
+      "v2_sha256": "636c462250468580e99734cc41f131ddbdb0ef2c760239750567f74ac4ed75a3"
+    }
+  ]
+}

@@ -1,0 +1,548 @@
+{
+  "label": "SYNTHETIC MECHANICS DEMONSTRATION \u2014 NOT MARKET PERFORMANCE",
+  "created_at": "2026-10-04T20:48:41.387755+00:00",
+  "experiment_id": "20261004T204803Z-c9bf26ff",
+  "survival_id": "4269276a457a6f9837812e73b448fc33def72651206504076a9094dbbf2efeae",
+  "request": {
+    "name": "Fixed momentum and reversal mechanics study",
+    "hypothesis": "Test a fixed 60/40 momentum/reversal allocation under risk limits and trading costs; no parameter selection.",
+    "data_mode": "demo",
+    "symbols": [
+      "AAPL",
+      "MSFT",
+      "AMZN",
+      "GOOGL",
+      "META",
+      "JPM",
+      "XOM",
+      "UNH"
+    ],
+    "benchmark": "SPY",
+    "period": "5y",
+    "sleeves": [
+      {
+        "strategy": "time_series_momentum",
+        "budget": 60.0,
+        "lookback": 63
+      },
+      {
+        "strategy": "mean_reversion",
+        "budget": 40.0,
+        "lookback": 20
+      }
+    ],
+    "long_only": true,
+    "initial_capital": 1000000,
+    "volatility_target": 0.1,
+    "max_asset_weight": 0.2,
+    "max_gross_exposure": 1.0,
+    "max_net_exposure": 1.0,
+    "drawdown_limit": 0.15,
+    "rebalance": "weekly",
+    "commission_bps": 2.0,
+    "slippage_bps": 3.0,
+    "annual_borrow_bps": 100,
+    "regime_enabled": true,
+    "defensive_multiplier": 0.5,
+    "constructive_multiplier": 1.0,
+    "train_window": 252,
+    "test_window": 63,
+    "min_oos_sharpe": 0.5,
+    "snapshot_run_id": null
+  },
+  "survival_config": {
+    "seed": 42,
+    "train_fraction": 0.6,
+    "validation_fraction": 0.2,
+    "min_observations": 60,
+    "annualization": 252,
+    "confidence": 0.95,
+    "bootstrap_samples": 300,
+    "block_length": 10,
+    "hac_lags": 5,
+    "walk_mode": "expanding",
+    "train_window": 126,
+    "test_window": 63,
+    "max_folds": 8,
+    "parameter_scales": [
+      0.8,
+      1.0,
+      1.2
+    ],
+    "cscv_blocks": 8,
+    "max_cscv_trials": 64,
+    "effective_trials": null,
+    "dsr_assumptions": "",
+    "spread_bps": 0.0,
+    "participation_rate": 0.01,
+    "execution_delay": 1,
+    "slippage_shock": 2.0,
+    "max_universe_subsets": 4,
+    "stale_bars": 5,
+    "gap_warning": 0.35,
+    "shock_return": -0.1,
+    "portfolio_mix": 0.2,
+    "layers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "required_layers": [
+      1
+    ],
+    "gates": []
+  },
+  "data": {
+    "source": "Seeded synthetic research fixture (seed 7)",
+    "data_mode": "demo",
+    "currency": "USD",
+    "benchmark": "Synthetic equal-price index",
+    "retrieved_at": "2026-10-04T20:48:03.675261+00:00",
+    "seed": 7,
+    "start_date": "2018-01-01",
+    "end_date": "2021-06-11",
+    "evaluation_start": "2018-06-26",
+    "observations": 900,
+    "warmup_observations": 126,
+    "age_calendar_days": 1942,
+    "symbols": [
+      "AAPL",
+      "MSFT",
+      "AMZN",
+      "GOOGL",
+      "META",
+      "JPM",
+      "XOM",
+      "UNH"
+    ],
+    "snapshot_sha256": "8e40ca85d39ad022ae9187be4f74b7512d1b0753f680577f38f6c239368ae83f"
+  },
+  "source_sha256": "526325cf77b0c09ffa64d0ca70b209ee6adba212ffa75fd11f58177afa09718e",
+  "dependencies": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "pydantic": "2.13.5",
+    "yfinance": "1.7.0",
+    "statsmodels": "0.15.0",
+    "scikit-learn": "1.9.0",
+    "hmmlearn": "0.3.3"
+  },
+  "export_sha256": "5b7b85c0882bfe68ee630e15de10aa15acfadcff55c8959902a771ca7b44a760",
+  "catalogue_strategies": 8,
+  "research_walk_forward_windows": 10,
+  "research_metrics": {
+    "total_return": 0.07574930435025617,
+    "annualized_return": 0.024057955288057542,
+    "annualized_volatility": 0.0836404455492159,
+    "sharpe": 0.3260196574238542,
+    "sortino": 0.46491489625443116,
+    "calmar": 0.19106564739125667,
+    "max_drawdown": -0.12591460378428265,
+    "hit_rate": 0.5051679586563308,
+    "skew": -0.08821380503742289,
+    "kurtosis": 0.43243147671136395,
+    "skew_observations": 774,
+    "benchmark_return": 0.049802161792093624,
+    "active_return": 0.02594714255816255,
+    "tracking_error": 0.0692472439935086,
+    "information_ratio": 0.10398547015724742,
+    "gross_return": 0.10246681201108321,
+    "annual_turnover": 15.977974447814374,
+    "expected_shortfall_95": -0.011330858061307693
+  },
+  "validation_metrics": {
+    "total_return": 0.0960477186111961,
+    "annualized_return": 0.03630891771383493,
+    "annualized_volatility": 0.08251594903706738,
+    "sharpe": 0.473454908747601,
+    "sortino": 0.6770925852930487,
+    "calmar": 0.31104384964947623,
+    "max_drawdown": -0.1167324727839899,
+    "hit_rate": 0.5185185185185185,
+    "skew": -0.08459794053856921,
+    "kurtosis": 0.15453942896119965,
+    "skew_observations": 648
+  },
+  "survival_summary": {
+    "counts": {
+      "FAIL": 0,
+      "N-A": 2,
+      "PASS": 1,
+      "WARN": 15
+    },
+    "hard_failures": [],
+    "interpretation": "Diagnostic coverage and configured gates, not a score or investment approval. WARN requires review; N-A is not evidence of survival.",
+    "live_eligible": false,
+    "research_gates_satisfied": true,
+    "status": "WARN",
+    "unresolved_failure_gates": [],
+    "unresolved_required_layers": []
+  },
+  "layers": [
+    {
+      "id": 1,
+      "name": "Data Integrity & Bias Audit",
+      "status": "WARN",
+      "metrics": {
+        "integrity_errors": 0,
+        "prefix_checks": 3,
+        "quality_flags": 0
+      },
+      "reasons": [
+        "Archived history has already been examined; temporal splitting cannot restore untouched OOS.",
+        "PIT constituent/delisting ledger unavailable: survivorship bias is not cleared.",
+        "Exchange-session completeness and corporate-action correctness need verified calendars/ledgers.",
+        "SYNTHETIC fixture: mechanics only, not empirical investment evidence"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Chronological Train / Validation / True OOS",
+      "status": "WARN",
+      "metrics": {
+        "segments": 3,
+        "test_sharpe": 0.6631656141730309,
+        "true_oos_sharpe": null
+      },
+      "reasons": [
+        "Frozen rules evaluated independently in each segment with prior position context. Final segment is retrospective, not true OOS."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Walk-Forward Validation",
+      "status": "WARN",
+      "metrics": {
+        "cagr": 0.012797501107572495,
+        "folds": 8,
+        "max_drawdown": -0.12591460378428276,
+        "observations": 504,
+        "sharpe": 0.19296974314637244,
+        "sharpe_dispersion": 1.9007519207134589,
+        "total_return": 0.025758778249743264,
+        "volatility": 0.084263065978863
+      },
+      "reasons": [
+        "Rules frozen; train windows supply history, not parameter optimization. Repeated research remains retrospective."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Parameter Stability / Sensitivity",
+      "status": "WARN",
+      "metrics": {
+        "positive_fraction": 0.8,
+        "sharpe_max": 0.42162796205762837,
+        "sharpe_min": -0.28792728000750656,
+        "sharpe_range": 0.709555242065135,
+        "valid_variants": 5,
+        "variants": 5
+      },
+      "reasons": [
+        "Sign changes across neighbors: configuration may be knife-edge"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Transaction-Cost Stress",
+      "status": "PASS",
+      "metrics": {
+        "break_even_extra_bps": 14.869213104248047,
+        "return_at_3x": 0.02420711630560346
+      },
+      "reasons": []
+    },
+    {
+      "id": 6,
+      "name": "Liquidity & Execution Stress",
+      "status": "WARN",
+      "metrics": {
+        "cagr": 0.01456691246112607,
+        "clipped_orders": 12,
+        "filled_orders": 817,
+        "indicative_capacity_p10": 20457010.625650827,
+        "max_drawdown": -0.11049963108149741,
+        "minimum_cash": 1.6166502380365273,
+        "observations": 774,
+        "sharpe": 0.21365853812375707,
+        "total_return": 0.04541976188500496,
+        "volatility": 0.08431260907064965
+      },
+      "reasons": [
+        "Daily adjusted-unit capacity is indicative; volume does not provide executable quotes or an impact curve."
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Bootstrap / Monte Carlo Resampling",
+      "status": "WARN",
+      "metrics": {
+        "intervals": {
+          "cagr": {
+            "confidence": 0.95,
+            "high": 0.1298654672094396,
+            "low": -0.06073436436466698,
+            "median": 0.025838376104263205
+          },
+          "max_drawdown": {
+            "confidence": 0.95,
+            "high": -0.0676149769545734,
+            "low": -0.26148127636814916,
+            "median": -0.1253713851082569
+          },
+          "sharpe": {
+            "confidence": 0.95,
+            "high": 1.507051126441303,
+            "low": -0.7009097594091309,
+            "median": 0.3442274763073105
+          },
+          "total_return": {
+            "confidence": 0.95,
+            "high": 0.45503581114274594,
+            "low": -0.17506128234239457,
+            "median": 0.08150415119840448
+          }
+        },
+        "loss_probability": 0.3
+      },
+      "reasons": [
+        "Intervals condition on this observed return history; they do not account for the full research search."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Statistical Significance",
+      "status": "WARN",
+      "metrics": {
+        "ci_high": 0.0004913094542564727,
+        "ci_low": -0.00027489334786969584,
+        "confidence": 0.95,
+        "daily_mean": 0.00010820805319338843,
+        "hac_lags": 5,
+        "p_one_sided": 0.2899272497794505,
+        "standard_error": 0.00019546349018907452,
+        "z": 0.5535972630424085
+      },
+      "reasons": [
+        "Mean-return confidence interval includes zero; evidence is inconclusive"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Multiple-Testing / Data-Snooping Control",
+      "status": "WARN",
+      "metrics": {
+        "known_experiment_book_attempts": 1,
+        "minimum_adjusted_p": 1.0,
+        "recorded_trials": 5,
+        "unusable_trials": 0,
+        "valid_tests": 5
+      },
+      "reasons": [
+        "BY adjustment covers recorded comparable trials only. Prior external/adaptive research is unknown; this is exploratory inference."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Deflated Sharpe Ratio & PBO",
+      "status": "WARN",
+      "metrics": {
+        "dsr": null,
+        "pbo": 0.6571428571428571,
+        "trials": 5
+      },
+      "reasons": [
+        "DSR needs a documented effective independent trial count and IID-return assumption",
+        "Small local trial grids do not capture all researcher choices. DSR/CSCV remain conditional diagnostics."
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Regime Survival",
+      "status": "WARN",
+      "metrics": {
+        "absolute_return_concentration": 0.5354206583151933,
+        "regime_groups": 7
+      },
+      "reasons": [
+        "Sparse states and unavailable HMM coverage require review; concentration is descriptive."
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Benchmark & Factor Attribution",
+      "status": "WARN",
+      "metrics": {
+        "active_total_return": 0.02594714255816144,
+        "alpha_p_two_sided": 0.6780093332754873,
+        "annualized_arithmetic_alpha": 0.014635894380752674,
+        "benchmark_return": 0.049802161792093624,
+        "coefficients": [
+          0.6294952117663424
+        ],
+        "confidence": 0.95,
+        "confidence_intervals": [
+          [
+            -0.0002160969311413421,
+            0.0003322548230520776
+          ],
+          [
+            0.572456251331089,
+            0.6865341722015957
+          ]
+        ],
+        "daily_alpha": 5.807894595536776e-05,
+        "observations": 774,
+        "r_squared": 0.48128065499748784,
+        "residual_volatility_daily": 0.003794742310613939
+      },
+      "reasons": [
+        "Only connected factors can explain exposures; residual alpha depends on the model."
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Cross-Asset / Universe Robustness",
+      "status": "WARN",
+      "metrics": {
+        "positive_fraction": 0.75,
+        "subsets": 4
+      },
+      "reasons": [
+        "Development dates only; deterministic alphabetical leave-one-out subsets. No alternative-asset or sector feed is implied."
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Temporal Stability / Subperiod Survival",
+      "status": "WARN",
+      "metrics": {
+        "absolute_return_concentration": 0.481883408705643,
+        "rolling_sharpe_dispersion": 1.6377293588331092,
+        "years": 4
+      },
+      "reasons": [
+        "Isolated periods and dependent rolling estimates require interpretation; no structural-break p-value inferred."
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Portfolio Interaction",
+      "status": "WARN",
+      "metrics": {
+        "peers": 0,
+        "sleeves": 2
+      },
+      "reasons": [
+        "Covariance contributions use standalone budget-weighted sleeves; allocated counterfactuals capture nonlinear constraints."
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Tail-Risk & Scenario Stress",
+      "status": "WARN",
+      "metrics": {
+        "current_underwater_bars": 14,
+        "es95_loss": 0.011330858061307694,
+        "longest_underwater_bars": 473,
+        "max_drawdown": -0.12591460378428276,
+        "synthetic_gap_return": -0.05474447204680358,
+        "var95_loss": 0.008878023486062354,
+        "worst_20_bar_return": -0.05563406918396563
+      },
+      "reasons": [
+        "Historical tail estimates and frozen-weight synthetic shocks exclude unobserved liquidity crises."
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Paper-Trading / Forward Validation",
+      "status": "N-A",
+      "metrics": {},
+      "reasons": [
+        "No subsequent observations in a prospectively registered forward paper record"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Live Performance Monitoring",
+      "status": "N-A",
+      "metrics": {},
+      "reasons": [
+        "Live feed, reconciliation and authenticated execution ledger are not connected. Read-only monitor contract exists; live orders remain disabled."
+      ]
+    }
+  ],
+  "cost_scenarios": [
+    {
+      "cagr": 0.024057955288057098,
+      "max_drawdown": -0.12591460378428276,
+      "multiplier": 1,
+      "observations": 774,
+      "sharpe": 0.32601965742385397,
+      "total_return": 0.07574930435025506,
+      "volatility": 0.08364044554921592
+    },
+    {
+      "cagr": 0.01590690239958592,
+      "max_drawdown": -0.13529813873402574,
+      "multiplier": 2,
+      "observations": 774,
+      "sharpe": 0.23043528606599353,
+      "total_return": 0.04966640653899557,
+      "volatility": 0.08365929281726059
+    },
+    {
+      "cagr": 0.007817907410066383,
+      "max_drawdown": -0.1445845086852966,
+      "multiplier": 3,
+      "observations": 774,
+      "sharpe": 0.13485253259429433,
+      "total_return": 0.02420711630560346,
+      "volatility": 0.08369614136562688
+    }
+  ],
+  "forward": {
+    "id": "7b95b64b15790f018888ea96ce911cfc6431ad1f9e0ebfe998e8e8d0277f1b73",
+    "observations": 0,
+    "broker_verified": false
+  },
+  "checks": {
+    "api_artifact_matches_result": true,
+    "all_18_layers_reported": true,
+    "no_layer_calculation_errors": true,
+    "no_hard_integrity_failure": true,
+    "attribution_reconciles": true,
+    "cost_stress_monotone": true,
+    "cache_reuses_identical_submission": true,
+    "export_exact_replay": true,
+    "synthetic_promotion_blocked": true,
+    "negative_decision_preserved": true,
+    "forward_has_no_invented_observations": true,
+    "live_execution_disabled": true
+  },
+  "limitations": [
+    "Fixed seeded synthetic prices, not observed markets or exchange sessions.",
+    "No parameter optimization or strategy selected from these results.",
+    "Main portfolio accounting is fractional; whole-share liquidity stress is a separate account.",
+    "Historical splits are retrospective; no untouched holdout is claimed.",
+    "DSR is unavailable without effective independent trial assumptions.",
+    "No broker, external feed, frontend browser, or prospective performance verified by this script."
+  ]
+}

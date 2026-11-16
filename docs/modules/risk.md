@@ -1,0 +1,7 @@
+# Multi-Asset Risk Simulation
+
+How well does a trailing covariance model forecast the frequency and size of portfolio losses? The historical study forecasts one-day 95% VaR and expected shortfall on an equal-dollar $100,000 book of MSFT, JPM, XOM, JNJ and PG. Each forecast uses the previous 252 observed sessions and 10,000 simulated correlated returns. [Monte Carlo engine](../../apps/engine/qresearch/risk_simulation.py) · [Study runner](../../research/execution/measure_models.py)
+
+From January 2, 2020 through December 31, 2025, **75 of 1,508 sessions (4.97%)** breached 95% VaR. Breach-day losses averaged **$2,461**, against mean forecast ES of **$1,779** on those dates. The observed breach rate was close to the target, while the mean loss in the tail exceeded the estimate. These are daily risk forecasts for a fixed surviving universe. A separate 21-session projection put 95% VaR at $4,561 under fitted covariance and $9,953 under doubled volatility. [Stress scenarios, inference and assumptions](../../research/execution/README.md) · [Full measurements](../../research/execution/model-results.json)
+
+Open **Research evidence → Multi-asset risk simulation → Open workbench**. Select a saved history, enter exposures or reuse a saved constrained minimum-variance allocation, then compare baseline and stressed loss distributions. The same workbench offers a constrained efficient frontier and one-step ARIMA forecasting with a last-observation baseline. [Optimization and forecasting implementation](../../apps/engine/qresearch/modeling.py)

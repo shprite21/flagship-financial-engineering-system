@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-08",
+  "source_files": {
+    "terminal": 347,
+    "projects/Competitive-Market-Intelligence-System": 12,
+    "projects/Parallel-Agent-Based-Economic-Financial-Market-Simulator": 44,
+    "projects/python": 1,
+    "projects/Regime-Aware-Systematic-Equities-Trading-Platform": 119,
+    "projects/systematic swing trading bot": 49
+  },
+  "original_source_changes": [],
+  "migrated_sources_verified": 134,
+  "missing_migration_destinations": [],
+  "preserved_native_sources": 7,
+  "imported_reports": 6,
+  "imported_pages": 1089,
+  "python_tests": 372,
+  "web_tests": 67,
+  "gateway_tests": 39,
+  "typescript": "passed",
+  "production_build": "passed",
+  "live": {
+    "health": {
+      "status": "ok",
+      "mode": "research_only",
+      "liveOrderSubmission": false,
+      "compute_workers": 1,
+      "queued_or_running": 0
+    },
+    "catalogue_actions": [
+      "arima-forecast",
+      "basket-walk-forward",
+      "economy-benchmark",
+      "economy-simulation",
+      "efficient-frontier",
+      "history-download",
+      "history-from-lab",
+      "history-import",
+      "history-scenario",
+      "hmm-multi-strategy",
+      "intelligence-answer",
+      "intelligence-import",
+      "intelligence-index",
+      "intelligence-news",
+      "intelligence-search",
+      "intelligence-semantic-search",
+      "multi-asset-risk",
+      "options-benchmark",
+      "options-pricing",
+      "options-simulation"
+    ],
+    "verified": [
+      {
+        "id": "f15a7ba1958e252ed93a986414e77771b510eb5d15f542cf0fcf61beeb77ec1b",
+        "action": "economy-simulation",
+        "replay": {
+          "verified": true,
+          "action": "economy-simulation",
+          "timings_reproduced": false,
+          "native_binary_identical": true
+        }
+      },
+      {
+        "id": "5fa966e126b754e5a2b648124d84f425b7fd5f64370bf2c01b1c0a0820bda39b",
+        "action": "intelligence-search",
+        "replay": {
+          "verified": true,
+          "action": "intelligence-search",
+          "timings_reproduced": null,
+          "native_binary_identical": null
+        }
+      },
+      {
+        "id": "3c72e68fcf78fd78a257a8cdd365cf95266a3963cc3b9c7a4b1971e178fa43f8",
+        "action": "economy-benchmark",
+        "attempts": 6,
+        "warmups": 2,
+        "retained_child_observations": 6
+      }
+    ],
+    "limitations": [
+      "This verification does not call optional AI or news providers; their contracts are tested separately with deterministic fixtures."
+    ]
+  },
+  "browser": {
+    "citations": [
+      {
+        "text": "Page 112 ↗",
+        "href": "/integrations/engine/api/evidence/documents/7ebc3d2eec2a2a0eaa483736a266a0869425b346c3fb55d7bc986984232fddcb/source#page=112"
+      },
+      {
+        "text": "Page 133 ↗",
+        "href": "/integrations/engine/api/evidence/documents/15e97acd3b2aafb9eb2a7dbaf9411000fe30e444c83a1c0516439e67041b32aa/source#page=133"
+      },
+      {
+        "text": "Page 115 ↗",
+        "href": "/integrations/engine/api/evidence/documents/15e97acd3b2aafb9eb2a7dbaf9411000fe30e444c83a1c0516439e67041b32aa/source#page=115"
+      },
+      {
+        "text": "Page 98 ↗",
+        "href": "/integrations/engine/api/evidence/documents/15e97acd3b2aafb9eb2a7dbaf9411000fe30e444c83a1c0516439e67041b32aa/source#page=98"
+      },
+      {
+        "text": "Page 111 ↗",
+        "href": "/integrations/engine/api/evidence/documents/7ebc3d2eec2a2a0eaa483736a266a0869425b346c3fb55d7bc986984232fddcb/source#page=111"
+      },
+      {
+        "text": "Page 129 ↗",
+        "href": "/integrations/engine/api/evidence/documents/7ebc3d2eec2a2a0eaa483736a266a0869425b346c3fb55d7bc986984232fddcb/source#page=129"
+      }
+    ],
+    "sourcePdfStatus": 200,
+    "charts": [
+      "Physical production · synthetic units · Output",
+      "Consumption and net saving · cash units · Consumption / Savings",
+      "Unemployment fraction · Unemployment",
+      "Closed-system cash · total and firms · Total Money / Firm Cash"
+    ],
+    "errors": []
+  },
+  "optional_providers": {
+    "ollama": "connection unavailable during explicit readiness check",
+    "news": "backend key unconfigured; no news call made",
+    "contracts": "tested using deterministic provider fixtures"
+  },
+  "execution": "live submission disabled",
+  "final_audit_utc": "2026-10-07T20:19:38.441761+00:00",
+  "original_report_hashes_verified": 6,
+  "total_distinct_tests": 478,
+  "final_focused_module_and_api_tests": 34,
+  "standalone_quant_tests": 16,
+  "test_execution_date": "2026-10-07",
+  "hosting_files_unchanged": {
+    "apps/web/.openai/hosting.json": "b40d8da71041c9b574fbe6ad88088653fc8e631d34c7a8ee20a20a79844e1435",
+    "apps/web/vite.config.ts": "2a9470a669930c3c9f30f4c467c854ef1b99e15ef6f300e31ad18da89451c967"
+  },
+  "verification_artifacts": [
+    "outputs-consolidation-verification.log",
+    "outputs-consolidation-final-build.log",
+    "outputs-consolidation-module-final.log",
+    "outputs/consolidation/source-audit-final.json",
+    "outputs/consolidation/live/verification.json",
+    "outputs/consolidation/browser/acceptance.json"
+  ]
+}

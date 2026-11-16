@@ -1,0 +1,256 @@
+{
+  "regime": [
+    {
+      "last_training_close": "2020-12-31",
+      "next_eligible_fill": "2021-01-04",
+      "observations": 445,
+      "converged": true,
+      "last_log_likelihood_change": 5.252096150343277e-05,
+      "cointegration_eligible": true
+    },
+    {
+      "last_training_close": "2021-07-02",
+      "next_eligible_fill": "2021-07-06",
+      "observations": 571,
+      "converged": true,
+      "last_log_likelihood_change": 1.6926351008805796e-05,
+      "cointegration_eligible": true
+    },
+    {
+      "last_training_close": "2021-12-31",
+      "next_eligible_fill": "2022-01-03",
+      "observations": 697,
+      "converged": true,
+      "last_log_likelihood_change": -1.8189798311141203e-05,
+      "cointegration_eligible": true
+    },
+    {
+      "last_training_close": "2022-07-05",
+      "next_eligible_fill": "2022-07-06",
+      "observations": 823,
+      "converged": true,
+      "last_log_likelihood_change": 9.839341146289371e-05,
+      "cointegration_eligible": false
+    },
+    {
+      "last_training_close": "2023-01-03",
+      "next_eligible_fill": "2023-01-04",
+      "observations": 949,
+      "converged": true,
+      "last_log_likelihood_change": 3.77098522221786e-05,
+      "cointegration_eligible": false
+    },
+    {
+      "last_training_close": "2023-07-06",
+      "next_eligible_fill": "2023-07-07",
+      "observations": 1075,
+      "converged": true,
+      "last_log_likelihood_change": 6.565339299413608e-05,
+      "cointegration_eligible": false
+    },
+    {
+      "last_training_close": "2024-01-04",
+      "next_eligible_fill": "2024-01-05",
+      "observations": 1201,
+      "converged": true,
+      "last_log_likelihood_change": 4.499063152252347e-05,
+      "cointegration_eligible": false
+    },
+    {
+      "last_training_close": "2024-07-08",
+      "next_eligible_fill": "2024-07-09",
+      "observations": 1327,
+      "converged": true,
+      "last_log_likelihood_change": -1.238423874383443e-05,
+      "cointegration_eligible": false
+    },
+    {
+      "last_training_close": "2025-01-06",
+      "next_eligible_fill": "2025-01-07",
+      "observations": 1453,
+      "converged": true,
+      "last_log_likelihood_change": 9.515164492768236e-05,
+      "cointegration_eligible": false
+    },
+    {
+      "last_training_close": "2025-07-10",
+      "next_eligible_fill": "2025-07-11",
+      "observations": 1579,
+      "converged": true,
+      "last_log_likelihood_change": 5.708254229830345e-05,
+      "cointegration_eligible": false
+    }
+  ],
+  "cointegration": [
+    {
+      "fold": 0,
+      "calibration_first": "2019-01-03",
+      "calibration_last": "2020-07-02",
+      "validation_first": "2020-07-06",
+      "validation_last": "2020-12-31",
+      "test_first": "2021-01-04",
+      "test_last": "2021-07-02",
+      "selected": null,
+      "evaluation_status": {
+        "baseline": "cash: no eligible outer cointegration",
+        "optimized": "cash: no eligible outer cointegration"
+      },
+      "outer_eg_p": 0.39423209423270483,
+      "inner_eg_p": 0.7725758411154828,
+      "trial_count": 0
+    },
+    {
+      "fold": 1,
+      "calibration_first": "2019-07-05",
+      "calibration_last": "2020-12-31",
+      "validation_first": "2021-01-04",
+      "validation_last": "2021-07-02",
+      "test_first": "2021-07-06",
+      "test_last": "2021-12-31",
+      "selected": null,
+      "evaluation_status": {
+        "baseline": "cash: no eligible outer cointegration",
+        "optimized": "cash: no eligible outer cointegration"
+      },
+      "outer_eg_p": 0.5185164916640084,
+      "inner_eg_p": 0.6987377194010806,
+      "trial_count": 0
+    },
+    {
+      "fold": 2,
+      "calibration_first": "2020-01-03",
+      "calibration_last": "2021-07-02",
+      "validation_first": "2021-07-06",
+      "validation_last": "2021-12-31",
+      "test_first": "2022-01-03",
+      "test_last": "2022-07-05",
+      "selected": null,
+      "evaluation_status": {
+        "baseline": "cash: no eligible outer cointegration",
+        "optimized": "cash: no eligible outer cointegration"
+      },
+      "outer_eg_p": 0.23049225851531796,
+      "inner_eg_p": 0.17437152658509364,
+      "trial_count": 0
+    },
+    {
+      "fold": 3,
+      "calibration_first": "2020-07-06",
+      "calibration_last": "2021-12-31",
+      "validation_first": "2022-01-03",
+      "validation_last": "2022-07-05",
+      "test_first": "2022-07-06",
+      "test_last": "2023-01-03",
+      "selected": null,
+      "evaluation_status": {
+        "baseline": "cash: no eligible outer cointegration",
+        "optimized": "cash: no eligible outer cointegration"
+      },
+      "outer_eg_p": 0.36449520721704093,
+      "inner_eg_p": 0.2050050136400457,
+      "trial_count": 0
+    },
+    {
+      "fold": 4,
+      "calibration_first": "2021-01-04",
+      "calibration_last": "2022-07-05",
+      "validation_first": "2022-07-06",
+      "validation_last": "2023-01-03",
+      "test_first": "2023-01-04",
+      "test_last": "2023-07-06",
+      "selected": null,
+      "evaluation_status": {
+        "baseline": "cash: no eligible outer cointegration",
+        "optimized": "cash: no eligible outer cointegration"
+      },
+      "outer_eg_p": 0.24306627509101864,
+      "inner_eg_p": 0.4533614631037372,
+      "trial_count": 0
+    },
+    {
+      "fold": 5,
+      "calibration_first": "2021-07-06",
+      "calibration_last": "2023-01-03",
+      "validation_first": "2023-01-04",
+      "validation_last": "2023-07-06",
+      "test_first": "2023-07-07",
+      "test_last": "2024-01-04",
+      "selected": null,
+      "evaluation_status": {
+        "baseline": "cash: no eligible outer cointegration",
+        "optimized": "cash: no eligible outer cointegration"
+      },
+      "outer_eg_p": 0.6673201202406094,
+      "inner_eg_p": 0.7456069731957224,
+      "trial_count": 0
+    },
+    {
+      "fold": 6,
+      "calibration_first": "2022-01-03",
+      "calibration_last": "2023-07-06",
+      "validation_first": "2023-07-07",
+      "validation_last": "2024-01-04",
+      "test_first": "2024-01-05",
+      "test_last": "2024-07-08",
+      "selected": null,
+      "evaluation_status": {
+        "baseline": "cash: no eligible outer cointegration",
+        "optimized": "cash: no eligible outer cointegration"
+      },
+      "outer_eg_p": 0.21670491157947186,
+      "inner_eg_p": 0.2241750471147404,
+      "trial_count": 0
+    },
+    {
+      "fold": 7,
+      "calibration_first": "2022-07-06",
+      "calibration_last": "2024-01-04",
+      "validation_first": "2024-01-05",
+      "validation_last": "2024-07-08",
+      "test_first": "2024-07-09",
+      "test_last": "2025-01-06",
+      "selected": null,
+      "evaluation_status": {
+        "baseline": "cash: no eligible outer cointegration",
+        "optimized": "cash: no eligible outer cointegration"
+      },
+      "outer_eg_p": 0.8203239519391751,
+      "inner_eg_p": 0.2982471717878934,
+      "trial_count": 0
+    },
+    {
+      "fold": 8,
+      "calibration_first": "2023-01-04",
+      "calibration_last": "2024-07-08",
+      "validation_first": "2024-07-09",
+      "validation_last": "2025-01-06",
+      "test_first": "2025-01-07",
+      "test_last": "2025-07-10",
+      "selected": null,
+      "evaluation_status": {
+        "baseline": "cash: no eligible outer cointegration",
+        "optimized": "cash: no eligible outer cointegration"
+      },
+      "outer_eg_p": 0.9386164438078922,
+      "inner_eg_p": 0.9617942257628805,
+      "trial_count": 0
+    },
+    {
+      "fold": 9,
+      "calibration_first": "2023-07-07",
+      "calibration_last": "2025-01-06",
+      "validation_first": "2025-01-07",
+      "validation_last": "2025-07-10",
+      "test_first": "2025-07-11",
+      "test_last": "2025-12-31",
+      "selected": null,
+      "evaluation_status": {
+        "baseline": "cash: no eligible outer cointegration",
+        "optimized": "cash: no eligible outer cointegration"
+      },
+      "outer_eg_p": 0.6001180682296335,
+      "inner_eg_p": 0.8968951417895354,
+      "trial_count": 0
+    }
+  ]
+}

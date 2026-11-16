@@ -1,0 +1,1390 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "0c8b6a8a66428c60444fc785d00725ff80396a8f1315ceacb1d1f8c0d7b9df81"
+  },
+  {
+    "path": "AGENTS.md",
+    "sha256": "9bc5747c4afa2ae6b74c0dbd8bdcc6d1f2c31240a241409e345091e8b9108fce"
+  },
+  {
+    "path": "apps/engine/analytics/__init__.py",
+    "sha256": "e0b86ed91568c2a090e31b0faac0fdf47139df7622c42d64a6fba537e4fef698"
+  },
+  {
+    "path": "apps/engine/analytics/attribution.py",
+    "sha256": "fbedf670c74cf9a544b2665dc9399848fcfbcef556006985ba8383df169a0203"
+  },
+  {
+    "path": "apps/engine/analytics/benchmarking.py",
+    "sha256": "e7231652429e98532d5eaf1cfb5557d88374d023b9287086c7e4604b296e7e2d"
+  },
+  {
+    "path": "apps/engine/analytics/correlation.py",
+    "sha256": "a31077a45cd9cc31e08c731f2e0b641bb06665e77e33d721d24c05bc7de517b1"
+  },
+  {
+    "path": "apps/engine/analytics/cost_sensitivity.py",
+    "sha256": "424efa940f043612f55e99d95251d2e4aeaefca5ab4ea1531be463bcf6f80b44"
+  },
+  {
+    "path": "apps/engine/analytics/factor_exposure.py",
+    "sha256": "d87c334a0c979f87f16b275aa91f4a0707da0dbb031e4e4e51cead397f7353b2"
+  },
+  {
+    "path": "apps/engine/analytics/html_report.py",
+    "sha256": "998d6b4da3f4931f8053f8f65ac5d732518e3aca3cb695d820d47e032cf0c583"
+  },
+  {
+    "path": "apps/engine/analytics/metrics.py",
+    "sha256": "6158ecdd112da46731058e2f69f936c94c5600d3a2bc7ec98c3fec5c73f1b320"
+  },
+  {
+    "path": "apps/engine/analytics/portfolio_diagnostics.py",
+    "sha256": "3c0834416c7d2709ec546b5b0b9adc2f4cc569eec25073e4f9eccb28c4f6de4c"
+  },
+  {
+    "path": "apps/engine/analytics/regime_analysis.py",
+    "sha256": "d957ed897647db5bd0a2b95717464b4c8ddf07ae39d35cd487832305e1ed2ce8"
+  },
+  {
+    "path": "apps/engine/analytics/tearsheet.py",
+    "sha256": "9d1743935efce05e4ac3461ffe850b889908eb4c0963ec37484b66e7e41b880b"
+  },
+  {
+    "path": "apps/engine/apps/__init__.py",
+    "sha256": "ac09a3844c9f8b97a01dcd6e5dbb57462c8723c050e25d6d3babd6db45e641d5"
+  },
+  {
+    "path": "apps/engine/apps/portfolio_api.py",
+    "sha256": "0d82e2a3a5288d6802e00b4cd0737c3b2d246203071a8416a4c11762c58a5b55"
+  },
+  {
+    "path": "apps/engine/apps/research_api.py",
+    "sha256": "62ea1f97c95404e7714e68d6d9ea26c0e1f05eb14f47ff93b7dfd84d0e0febac"
+  },
+  {
+    "path": "apps/engine/backtesting/__init__.py",
+    "sha256": "b34de4f272f6e320fff8f1aab8636e1aa8f53127aaf801bd352ee5ee79ff49ec"
+  },
+  {
+    "path": "apps/engine/backtesting/engine.py",
+    "sha256": "489b9503521649616b25a1ce758c103b11f47c857603e639613fd1e49ca852c0"
+  },
+  {
+    "path": "apps/engine/backtesting/walk_forward.py",
+    "sha256": "9d77658f581d821d3619fa42872eb8976857303722e7ccb24178481dec1a7840"
+  },
+  {
+    "path": "apps/engine/configs/__init__.py",
+    "sha256": "54cd04dc7207db1cb5dd2eeb58e2215bfba7c5683f72f70520c004ca99f1625e"
+  },
+  {
+    "path": "apps/engine/configs/default.yaml",
+    "sha256": "9cc18494e8fe6731b3b84f8a790f02a4f700d30a9fce89ebf5682c90614df89d"
+  },
+  {
+    "path": "apps/engine/configs/loader.py",
+    "sha256": "b4469ccc3163631f56569114e4bd52c654046de8018fe9df2ff7d106784936b7"
+  },
+  {
+    "path": "apps/engine/configs/strategy_universe.yaml",
+    "sha256": "58d1bce21e4ac4ed37ebca3c23bad89f78448ec8c7eb5445c4f1dfedc79b9139"
+  },
+  {
+    "path": "apps/engine/data/__init__.py",
+    "sha256": "144b51b13e01b008ee35f71ccab151964c13e457984ecab0194aecce1f2ac4ef"
+  },
+  {
+    "path": "apps/engine/data/features.py",
+    "sha256": "a5fa09e8da8f417f1248f6d4a964b363637228b215089545e5bea672f2dd2497"
+  },
+  {
+    "path": "apps/engine/data/ingestion.py",
+    "sha256": "363728b04139ad6fb7391e2b1a2e78abcc0eb5a50f9d71a6ba914451979b7769"
+  },
+  {
+    "path": "apps/engine/data/models.py",
+    "sha256": "1f55af264f89e503cf4fd3491e5813a8cf39b2669217859a14017bbc80be634b"
+  },
+  {
+    "path": "apps/engine/data/provider_history.py",
+    "sha256": "ff47107386155dfbc64694bd4899f5a6f134f96a7715e7c2981966087dd8fbb2"
+  },
+  {
+    "path": "apps/engine/data/research_source.py",
+    "sha256": "35db1df2aee50af8ae2f4155faf6d9617947dee7d9113f134edb982015532647"
+  },
+  {
+    "path": "apps/engine/data/validation.py",
+    "sha256": "42493faa48f9741ed4be368059215d5793851067a166d3aaaefc16b86c27d563"
+  },
+  {
+    "path": "apps/engine/data/yahoo_runtime.py",
+    "sha256": "866030636d2a5096b40ac92a39baf9750b465f3a57f3ec6c114dc62dc522aba3"
+  },
+  {
+    "path": "apps/engine/evidence_tests/conftest.py",
+    "sha256": "4d9dd812a1a8f60d7151a4c9f9f0eb8278f44a4d8134c00ebc589ace376b2cf1"
+  },
+  {
+    "path": "apps/engine/evidence_tests/fixtures/CALCULATIONS.md",
+    "sha256": "ab7dcb8466ebe96c5e53949c4a776022c4e4b7135ba197687b9fc5b252d85825"
+  },
+  {
+    "path": "apps/engine/evidence_tests/fixtures/corporate_actions.json",
+    "sha256": "790fe533bd54ce68d8b974b8da7c45f175e1f784c1eeedbe9120074001182c57"
+  },
+  {
+    "path": "apps/engine/evidence_tests/fixtures/instrument_master_excerpt.json",
+    "sha256": "febc4e3ff846941b9c6d772a991ef0e801cf5f3372de487f2ce54846910eeda8"
+  },
+  {
+    "path": "apps/engine/evidence_tests/fixtures/instrument_master_provenance.json",
+    "sha256": "436ec0bbbcfc4a18f12f379fad5c25cbb30e9f93281c9b517b0433031fd75b7b"
+  },
+  {
+    "path": "apps/engine/evidence_tests/fixtures/nestle_split_prices.json",
+    "sha256": "57070e717607ccd77931f4fc385b69c901adc8abec67f940b582f1e555ed04c5"
+  },
+  {
+    "path": "apps/engine/evidence_tests/fixtures/nestle_split_provenance.json",
+    "sha256": "1ed517050be2c03947beb04d4ed0a45c47f9022526423462190ca50727b2005e"
+  },
+  {
+    "path": "apps/engine/evidence_tests/fixtures/nse_excerpt.json",
+    "sha256": "aadb411c3b446c3f8a49a0d44b5ce1855d2fd0a1af07b64ea191b49cd98b66bb"
+  },
+  {
+    "path": "apps/engine/evidence_tests/fixtures/provenance.json",
+    "sha256": "954b3ed8de3e48b92a93ccd279ef8eefdb04bdfefc6fe10d6a32e52e3a0eed1f"
+  },
+  {
+    "path": "apps/engine/evidence_tests/test_actions.py",
+    "sha256": "074b3e134ce3a23a36bad5de49c0061a54e5c37336919432237809f4b5fb9077"
+  },
+  {
+    "path": "apps/engine/evidence_tests/test_app.py",
+    "sha256": "a9c570acc2201c9510eceb52a5ae05f33df11594247e99da60e6e824044395f9"
+  },
+  {
+    "path": "apps/engine/evidence_tests/test_cli_setup.py",
+    "sha256": "1b93d4ea64500bd7a12645be5ef9fa0ba8108b06e3c89babf7cb2f38e14c9265"
+  },
+  {
+    "path": "apps/engine/evidence_tests/test_lab.py",
+    "sha256": "95f22fb28fddb54878a344d1e349736157ec67b6a3495bb908197f31df8be8be"
+  },
+  {
+    "path": "apps/engine/evidence_tests/test_provider.py",
+    "sha256": "846e625363836f253fa0c9c8b4aa0f2e3aba839381373f6ffdaadf40a29c8bd0"
+  },
+  {
+    "path": "apps/engine/evidence_tests/test_research.py",
+    "sha256": "2674caebd97f3851e64c34069dc2f386239d42ae27ccb5e7120044e3fea3ed32"
+  },
+  {
+    "path": "apps/engine/evidence/__init__.py",
+    "sha256": "9a828013905bef76a45aff892339c87f323d8dbc48ed8049e7c1784e46218405"
+  },
+  {
+    "path": "apps/engine/evidence/actions.py",
+    "sha256": "74b28b360c4f90f0b2953764465e586aa58c0f7067eee8c54a15dadbb96ce066"
+  },
+  {
+    "path": "apps/engine/evidence/bar_lab.py",
+    "sha256": "d100f67e38d4d145c7fd92dadca7248f21fe1ecc7f0a5479f6cdb31ce55abc50"
+  },
+  {
+    "path": "apps/engine/evidence/charts.py",
+    "sha256": "238d4395baf2fafce780a4c502b5601bf7c63811c46da1eb7f04a7c49df86dfb"
+  },
+  {
+    "path": "apps/engine/evidence/cli.py",
+    "sha256": "8afbc1770269ff230721aa56b5660ee766169fa6bd392c7eff8a8bae1878c010"
+  },
+  {
+    "path": "apps/engine/evidence/data.py",
+    "sha256": "b52eed971dd04032643e5d651cd51b1c43e1bdd812dd2d2e3b072a357fdd5ed2"
+  },
+  {
+    "path": "apps/engine/evidence/diagnostics.py",
+    "sha256": "d065c59a229d6ae01b5d6d69aa18026d3d5fd0fed65d2f469ab69c520aa8c622"
+  },
+  {
+    "path": "apps/engine/evidence/engine.py",
+    "sha256": "f45847531f5a05e78ce5e1a8d1c856bbf9133197d43b1676c694370509bb2b62"
+  },
+  {
+    "path": "apps/engine/evidence/experiments.py",
+    "sha256": "fe979226d93f4f7dc923d250207dc2702e5afc71d40b62477b81363b4990a1c0"
+  },
+  {
+    "path": "apps/engine/evidence/export.py",
+    "sha256": "9e069e413d1b469ca984403be9138e992a2ad648e775ce45a6244817857960e8"
+  },
+  {
+    "path": "apps/engine/evidence/jobs.py",
+    "sha256": "e98c0ec36f085b73f59443cd8e30087643bb7c40db0abb6e868ffb72d4122394"
+  },
+  {
+    "path": "apps/engine/evidence/lab_data.py",
+    "sha256": "ff5bdb5c30116fc58702d5bc0b6384a3f3579e482cf56789b4e71bc86b7d7bd7"
+  },
+  {
+    "path": "apps/engine/evidence/lab_provenance.py",
+    "sha256": "dcdcfec4df978c19e9847fe37f05392295f51dd2a9fcc388a8d8fa216a1b7e73"
+  },
+  {
+    "path": "apps/engine/evidence/lab_ui.py",
+    "sha256": "2414258ca856b420242e12ebfb2f7671526e9f863ffcbefd61d10df1e0fb2f14"
+  },
+  {
+    "path": "apps/engine/evidence/market_making.py",
+    "sha256": "eed839493e868e954bdb0992fe8f20f4b78b988a83fa807e1a055fe77b80373d"
+  },
+  {
+    "path": "apps/engine/evidence/models.py",
+    "sha256": "c1a57e23350ee9250e42f7650fdadc25f7685648843c868092fe241372ee9b4f"
+  },
+  {
+    "path": "apps/engine/evidence/provider.py",
+    "sha256": "74abca62b0412596c827e906dd09bbfb0149c775fdbc3fe7df02b3a10204951f"
+  },
+  {
+    "path": "apps/engine/evidence/replay_lab.py",
+    "sha256": "f7055f90b1cf15c3ad897776fd5589edbc44d9de167d908dd237a983dd89b501"
+  },
+  {
+    "path": "apps/engine/evidence/storage.py",
+    "sha256": "c32be413a109568d4f1462ee285e1a176a2464659048672882749d92ed67f420"
+  },
+  {
+    "path": "apps/engine/evidence/workbench.py",
+    "sha256": "ec2a01b96fbef33bafe7bff4ce1ebd68ab5000a9c32bc80eefde9aa76fda4429"
+  },
+  {
+    "path": "apps/engine/examples/costs-current-reference.json",
+    "sha256": "28b52d098f29ed74526baa9ce42b01f903d6e74c2113c7db8e15117fa3d32696"
+  },
+  {
+    "path": "apps/engine/examples/hypothesis.json",
+    "sha256": "b4bd2342f732138fc519e642c107f8913a3737721c064a9dd08d9c86f6a6faf1"
+  },
+  {
+    "path": "apps/engine/examples/strategy.template.json",
+    "sha256": "4ad0e03513fae6fca0493b7a0d540f096444928748572392fc428855d9ee0451"
+  },
+  {
+    "path": "apps/engine/execution/__init__.py",
+    "sha256": "70d861bfde9d68b9080aa858b94a2aa2e63159baa35fb24268a16c7051ca1bff"
+  },
+  {
+    "path": "apps/engine/execution/README.md",
+    "sha256": "22d1ba17763e6172f0be18ef955c595808eec79df7faeaeaffdf968f53012d1a"
+  },
+  {
+    "path": "apps/engine/execution/simulator.py",
+    "sha256": "337e5920e37b9f6380209bbbb69666f49e1a8482a03c13ce271fc92ee87b9683"
+  },
+  {
+    "path": "apps/engine/flagship_api.py",
+    "sha256": "83637ac0048e0219e9f13f6d46a9d45ad896ccf59e44c58ebd7a63b9f7a3f0aa"
+  },
+  {
+    "path": "apps/engine/legacy_evidence/app.py",
+    "sha256": "e2c5ba8fa448dcbe07da0b23cb03732d25a24d4483ee4a23b8193f755fa49573"
+  },
+  {
+    "path": "apps/engine/legacy_evidence/pyproject.toml",
+    "sha256": "3bafe4ef780473815c658adcd2f0c73b26ed6af7be974a5f08a4c555d168f6e3"
+  },
+  {
+    "path": "apps/engine/legacy_evidence/README.md",
+    "sha256": "c3216ff3530dfb8349dc62b94ac7b83af4c94c376cd224c252f293bad822df17"
+  },
+  {
+    "path": "apps/engine/legacy_evidence/requirements.lock.txt",
+    "sha256": "2de0ee48d84e2ba6a351d8c7aedfb0b2221090bd4fe975b4f05ed2c4143df4b9"
+  },
+  {
+    "path": "apps/engine/migrate_records.py",
+    "sha256": "b1e02b2984787bfdd30951a0303b03a987142d9e94d12c1463494c097c0415a8"
+  },
+  {
+    "path": "apps/engine/paper/__init__.py",
+    "sha256": "430921ad5fc161a18e0e4e15ae773a4e9674a3777a4127d148e1c0a75259c42f"
+  },
+  {
+    "path": "apps/engine/paper/accounting.py",
+    "sha256": "0023b087e19d3ca0f80c7377de092248155522404dce7848db37f7363ecb37d0"
+  },
+  {
+    "path": "apps/engine/paper/api.py",
+    "sha256": "bb17ed080961733128c730d6282a19f0a619ec76a8ff62f9c0028ab1a1b218c2"
+  },
+  {
+    "path": "apps/engine/paper/models.py",
+    "sha256": "f6e4efab80a04e04dbbfabeeaa4a317db75189a58e580acaba9b4cba20f40130"
+  },
+  {
+    "path": "apps/engine/paper/service.py",
+    "sha256": "00de202696179af1cbecc597b79b1f8842d01abfb076cc4fa913e75bc88f6cb9"
+  },
+  {
+    "path": "apps/engine/paper/storage.py",
+    "sha256": "8b8a52bbc91cbe4510c7fe055aa798773bce54cf3748de5c7d9324a3360149fb"
+  },
+  {
+    "path": "apps/engine/paper/strategies.py",
+    "sha256": "09af3709293e537a18dfcf20091a2c5e07ef91afbaa7261740c14586243cc567"
+  },
+  {
+    "path": "apps/engine/paper/worker.py",
+    "sha256": "6f53dab5d6e90186eb97f244016fd540f044dd68512eb3ea2e95ff17d2cd09da"
+  },
+  {
+    "path": "apps/engine/portfolio/__init__.py",
+    "sha256": "a2b80c8fde0e3071863fb62b8d43efeeabcd90202714e633e9fd887d535e5d35"
+  },
+  {
+    "path": "apps/engine/portfolio/allocation.py",
+    "sha256": "af74e41cebd6321bd28c2d32c4f419855bdb572b101b0787280b3a2e62101e99"
+  },
+  {
+    "path": "apps/engine/portfolio/custom.py",
+    "sha256": "230812899a7e1e608f1d96b26575f5d08789ba80415d2663e527be611ab13daa"
+  },
+  {
+    "path": "apps/engine/pyproject.toml",
+    "sha256": "77730a493faf6088959b98dde1131c2e195a4752134f10279c94c00f5935f6fd"
+  },
+  {
+    "path": "apps/engine/qresearch/__init__.py",
+    "sha256": "d30450ef76db78064aab8754489ee3ddf10bea8a29f251d626e2a05e1550b923"
+  },
+  {
+    "path": "apps/engine/qresearch/basket.py",
+    "sha256": "d5458922d85b6a4f660e4b4a62f2f03da388abd729cc5d21b19e029b472d8744"
+  },
+  {
+    "path": "apps/engine/qresearch/cointegration.py",
+    "sha256": "160f8496b9bf829b162e9e74ab189a523c269d09b68fc68cffce3e99b675a01c"
+  },
+  {
+    "path": "apps/engine/qresearch/cpp/benchmark.cpp",
+    "sha256": "66d68aa27a20f1a46914eaa008761ffcc3d5394362af4099287d080d402dfd7e"
+  },
+  {
+    "path": "apps/engine/qresearch/cpp/black_scholes.cpp",
+    "sha256": "b61eea532b08e5c50ef8fd8a8baee00a3d00bf639ecf48cb7da2f5eaa37f3c85"
+  },
+  {
+    "path": "apps/engine/qresearch/cpp/greeks.cpp",
+    "sha256": "98d8db2a12eb8e17e8c49fa0b04b6b24118e6f10c6ca0a53d063a55ce03181a1"
+  },
+  {
+    "path": "apps/engine/qresearch/cpp/q_pricing.hpp",
+    "sha256": "d58165a03dd5a0abbb279b8a50da03088f3800c6ca3144eea2638572b0f0f6f4"
+  },
+  {
+    "path": "apps/engine/qresearch/equity_account.py",
+    "sha256": "3e1c266fe69b7cc14492a688a4de5602fce5f9fa1e52d70004fc19fa8c5d4789"
+  },
+  {
+    "path": "apps/engine/qresearch/history.py",
+    "sha256": "57b5fa2e18ac9c347609a586cfd35711a52124a31843d9989c4558580a150fca"
+  },
+  {
+    "path": "apps/engine/qresearch/modeling.py",
+    "sha256": "d8c41712864b40ecae101f59ea8b1163bd2c262e2102c057c4b5213e730398a9"
+  },
+  {
+    "path": "apps/engine/qresearch/option_account.py",
+    "sha256": "8601e79b5c4bdf72b121fc872c438c2ed6e968973a498d647f99aa768f1335c0"
+  },
+  {
+    "path": "apps/engine/qresearch/option_benchmark.py",
+    "sha256": "8471d7a9e7c408f2eb453174c9f238deeb5b1147f0100331f03f876e8c5d214a"
+  },
+  {
+    "path": "apps/engine/qresearch/option_simulation.py",
+    "sha256": "c3736a0967e0931855876915baf62410b09b81973d94d08c61565af9469727a4"
+  },
+  {
+    "path": "apps/engine/qresearch/options.py",
+    "sha256": "e22beedc35aaf5e80870b52ad12b38d3f9a5d9c0e6ae892a1908739ef168af9f"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/__init__.py",
+    "sha256": "c883e84a260006d79ce64488ed43b9db1ab4ba3192109710383ca69b0b015432"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/arbitrage/__init__.py",
+    "sha256": "071af8de77e0a2bdebcbc5f0f4cc78024957b6d1d7b83ebc284dff5f206af15c"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/arbitrage/backtester.py",
+    "sha256": "8571437e4b616e588ca76aafda9ebf5b07050cd871a975247e44233f0fe1fb10"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/arbitrage/cointegration.py",
+    "sha256": "be8f78a1c3c030a17b8c4de2c70bb6338ad8dc2acb5128143bf39a45ec617b16"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/arbitrage/data_loader.py",
+    "sha256": "fcb3d376461c17c9cf765e7d578dd7ea84e6cc431c6a60bbfbde1b9a2e01af8b"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/arbitrage/metrics.py",
+    "sha256": "effd536e47a952e45a099a357b4ea455900f6d6be11c6af9841989cabc4a5257"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/arbitrage/optimizer.py",
+    "sha256": "8f1ae87a819b7a9a593408ee8c0d560baa5588edbf2f6fff30259d9a614d94c4"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/arbitrage/signals.py",
+    "sha256": "a3744b1cb1d7870c0eb3cf34b76e1d79f31a14f528cb16683ef58ff277e2e527"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/arbitrage/spread_builder.py",
+    "sha256": "df5e9b54850683028abc4c2ddb6fcaf18f5b1a7e95750570e22a2e207500ac18"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/arbitrage/utils.py",
+    "sha256": "50b557370a43cf46406d6d793cc968fba4679cd82ff19ec472724fb60c6e1e1e"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/options/__init__.py",
+    "sha256": "343830afae42ed2e8b4496804f231a4b1241580065bd6641c43c20ad7f5c3bae"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/options/benchmark.py",
+    "sha256": "7369bcb33e229b574029813c0263edaf89f67526f23b53ee43d0d18dd176a23a"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/options/black_scholes.py",
+    "sha256": "ed1050d6c861e69116a35cb7f7f778bea56be1f0255337846ed70cadf72052dd"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/options/delta_hedger.py",
+    "sha256": "232cdb4083619173f4518d718305cc006d04d64b437c4890fbe76e5840b01130"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/options/gbm_simulator.py",
+    "sha256": "3c16b7fe2089c629a1cdb8b785abed06d613f49157bcb89111dcd77b15ada52b"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/options/greeks.py",
+    "sha256": "a0db941ce1dc5291b29f1102b5cbebb73a595533a82c54250deaf7d82426637e"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/options/market_maker.py",
+    "sha256": "41b385560b7d5ec2a17a02ab625ca847f5924d9633e7f583194ca746803c3384"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/options/order_flow.py",
+    "sha256": "6883324844b956bd7a47954a3732718c62f41447c10206a7844f790b86314795"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/options/pnl_analysis.py",
+    "sha256": "300976c042776a02e84fca8a2156ab9cd4a0e96d645b52dbc330f5cdb963eef9"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/regime/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/regime/analytics/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/regime/analytics/metrics.py",
+    "sha256": "d39ad145d1e0e9e5cc842db47a1e680d0e6b94bbba7e974e7eba5f561d6e1ec8"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/regime/analytics/plotting.py",
+    "sha256": "86d753454dcd89cd92dc15ee59798a435df897abc98d84718c1ff521aa3779dd"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/regime/backtester/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/regime/backtester/engine.py",
+    "sha256": "358ee41c4a686800b2d94956659989929c25546960c2dfe6fc2615c09e774bfe"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/regime/backtester/portfolio.py",
+    "sha256": "2d409658b69db6c9c4fa47dc50f10e14a8f6a54104c3e190e58e786882dad337"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/regime/data/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/regime/data/loader.py",
+    "sha256": "8ffa08a91c9fc06513ecfa595a1b926bf613994f484660ec151bcfa2146ca145"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/regime/data/preprocess.py",
+    "sha256": "8b407c8b9a7fa99d577c235732b3cdcff39c58c3a516d0ba7bede6a4853dd349"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/regime/regime/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/regime/regime/hmm_regime_detector.py",
+    "sha256": "837271ba8138a4fcbfeb48a409ff6c41648844796966dd8ab62359dd67abc905"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/regime/strategies/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/regime/strategies/base.py",
+    "sha256": "c859aefd569366be80966132a74588cb6654a1156f7fc605dd11755800933c60"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/regime/strategies/mean_reversion.py",
+    "sha256": "4d27b8f88ba29660fe19d90f8ae7dac1c6f8f1070fef272a1bbf383875ace92d"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/regime/strategies/momentum.py",
+    "sha256": "711ade4aca78e29edc8938603a2039dfb962efccd4a1531ca90c9f3ce9617a94"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/regime/strategies/pairs_trading.py",
+    "sha256": "c7c2d7ca8825c65579730470f9ea7ea6206733974b2fa66ecbb5cbf9b5e7663a"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/regime/utils/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "apps/engine/qresearch/origins/regime/utils/helpers.py",
+    "sha256": "896dde3adcb1d2e3b91f3eed3e6299c9de3f37e8f1a23fbbd4ac6fdd4b4031f7"
+  },
+  {
+    "path": "apps/engine/qresearch/regimes.py",
+    "sha256": "9eb948f7ca5608fd4068bbbd165f6eff40776f63fb29ef3c28a3de1f96f97e26"
+  },
+  {
+    "path": "apps/engine/qresearch/replay.py",
+    "sha256": "bc2b296d9c359a4cc516caf7a5468cb3e1824b1bdf888dbcfcb6f9155ade274b"
+  },
+  {
+    "path": "apps/engine/qresearch/risk_simulation.py",
+    "sha256": "3803b4afd13365b36665b397960f4d932f222d0f92663e8f1396fe5f33a701dd"
+  },
+  {
+    "path": "apps/engine/qresearch/service.py",
+    "sha256": "de57bfad193cff150c18c4e4bbed79242c814dca7a36d6ce097208ab77891d44"
+  },
+  {
+    "path": "apps/engine/qresearch/source-manifest.json",
+    "sha256": "de3035658ca5aaf1540bda041e02b7074ec86040ede534fb0db943e44442affb"
+  },
+  {
+    "path": "apps/engine/README.md",
+    "sha256": "e77685eb346363a14b02143544d5c4c5f4a8ee7ae72944ecac0a8297c9ebeb76"
+  },
+  {
+    "path": "apps/engine/regime_detection/__init__.py",
+    "sha256": "2c24fc3ab93bc66220f7f7ce30c1409b0d8027109ca4edc60cd4537a2350f293"
+  },
+  {
+    "path": "apps/engine/regime_detection/base.py",
+    "sha256": "087515a7f957aec0925004ae1f501afde67c58c49e9415c2e46f6c8caee4e203"
+  },
+  {
+    "path": "apps/engine/regime_detection/ensemble.py",
+    "sha256": "915db20f959aea739e17a405f2bfd0a7e58656fd5868220fe00a78c6b6524f67"
+  },
+  {
+    "path": "apps/engine/regime_detection/hmm.py",
+    "sha256": "b0b7f2387d894c3ce100ebe884c543e54202cb6c7fce8f822d0870a93116b728"
+  },
+  {
+    "path": "apps/engine/regime_detection/macro.py",
+    "sha256": "2b8967f9a1eb6f534beff5d1d2c8c8fea3b2224ac77288c301e076c7a25919c1"
+  },
+  {
+    "path": "apps/engine/regime_detection/volatility.py",
+    "sha256": "29e5f1338d7289cd31c2d4b37ab0f67464f8121cd43ebff537a335862a10ac8e"
+  },
+  {
+    "path": "apps/engine/requirements.lock.txt",
+    "sha256": "62df79d85d57790a1193c14a8bedd06d2bfb5f4e035e7069b6620efad3b04c9e"
+  },
+  {
+    "path": "apps/engine/research/__init__.py",
+    "sha256": "fd925a19f7d169e9d58323cb3a1f61ba84d829063a6d5266474ab2a17353f722"
+  },
+  {
+    "path": "apps/engine/research/experiment_tracker.py",
+    "sha256": "3beb98a797e1520ff10249b54998327c37ab389c8dd08b472a43990e9d2350dc"
+  },
+  {
+    "path": "apps/engine/research/pipeline.py",
+    "sha256": "a0555a0ebc82013fc8adcdaa9f403a0502e3a4f3aa0b5ef3fd3447c007c0d1c7"
+  },
+  {
+    "path": "apps/engine/research/PM_WORKFLOW.md",
+    "sha256": "958ce316c3d2fc582f1fc10b8d91f823370e41e086218171ccf8f616d7f91356"
+  },
+  {
+    "path": "apps/engine/research/README.md",
+    "sha256": "505e097e05080a1d86dd8ee3a5440201fa551e58f2f6de637d9e5735751adf43"
+  },
+  {
+    "path": "apps/engine/research/robustness.py",
+    "sha256": "f7983813fd774bda0a3b25feca621b4fe76e30b9a14e7d415c259126d21ffdbd"
+  },
+  {
+    "path": "apps/engine/research/sleeves.py",
+    "sha256": "abdbf2bc6da909d2750997bcfcd7934d97b19a61fede005ee7b13f4e8a056e17"
+  },
+  {
+    "path": "apps/engine/research/survival/__init__.py",
+    "sha256": "c700d052afa9a7f25a68fd8a323f58fe7902203dd304a68803b20e30072be636"
+  },
+  {
+    "path": "apps/engine/research/survival/execution.py",
+    "sha256": "c389f329cdcba6a07d64a8533474e6af2ca69ba48fcc119a4df4f4c8198d3bfa"
+  },
+  {
+    "path": "apps/engine/research/survival/forward.py",
+    "sha256": "f4e2ac5fa1efb1d08f835c0933f18e7bfa77e7731759be3b899d56947da1a5ef"
+  },
+  {
+    "path": "apps/engine/research/survival/methods.py",
+    "sha256": "dbc26358fd7f823b502d5a9ed9a083dcce14751d2df80281922f86fe1834610a"
+  },
+  {
+    "path": "apps/engine/research/survival/models.py",
+    "sha256": "19470017f388ffe49e60c5fdc37b165bfb0bb43b683cc7640ba2532902fb778e"
+  },
+  {
+    "path": "apps/engine/research/survival/pipeline.py",
+    "sha256": "6a1c3d181e38d8a6383a86b7fb6ae2bfd9f24d25ee44edb0946699d1b59c52e0"
+  },
+  {
+    "path": "apps/engine/research/survival/replay.py",
+    "sha256": "d69df6977a6e071456497a2d74147fe81e861bdcc727f3910e1ee25e557f0ff4"
+  },
+  {
+    "path": "apps/engine/research/survival/service.py",
+    "sha256": "54fa7477aca1ba1642e70fca8b03f23731d624ccd318f40ac1d00a4fc317e21d"
+  },
+  {
+    "path": "apps/engine/research/survival/statistics.py",
+    "sha256": "8a8337abdd03c80b6aa743a79aaedcbc4ab2f4e844d5712869e5db8dd9ef8643"
+  },
+  {
+    "path": "apps/engine/research/workspace.py",
+    "sha256": "b368370fd50fb11c66b2a973ccc3362f10d12533371ae49157a5b3ed9b1ec290"
+  },
+  {
+    "path": "apps/engine/risk/__init__.py",
+    "sha256": "950e6aff98faaf97e9413fba31f995b9569de6d838991133ff59fa62b82400d2"
+  },
+  {
+    "path": "apps/engine/risk/costs.py",
+    "sha256": "01b7e220fc1257eee417427f6bddb582e6ca1b6be6ddd7b382debc18445a43bd"
+  },
+  {
+    "path": "apps/engine/risk/management.py",
+    "sha256": "8bde52877c6f8a7509c3220ca5db7c6655c19f3b9c850d4cfb9d07194b644bbf"
+  },
+  {
+    "path": "apps/engine/scripts/run_advanced_diagnostics.py",
+    "sha256": "57e0b0f4c126b3cb9be733f8a554d276f96e48fb4a3010284987a3a2944d3d95"
+  },
+  {
+    "path": "apps/engine/scripts/run_dashboard.ps1",
+    "sha256": "08db1924f449b7de45bf6c89b73cdd7d3fbc97d0c77c5d6bbdabc25d833c5503"
+  },
+  {
+    "path": "apps/engine/scripts/run_research.py",
+    "sha256": "9831888713a6acc545b6547a41482f062c35bd7fec2e8d3c4e2634222731d8f7"
+  },
+  {
+    "path": "apps/engine/serve.py",
+    "sha256": "fc7ae5d0c81dcda39ba25de430c98faee90e0de43398c933ae2f4dd67310caa1"
+  },
+  {
+    "path": "apps/engine/strategies/__init__.py",
+    "sha256": "27f0b3850b763c65607f0a2d969eeed388fb03b4160ff4981f0a508637b7fa74"
+  },
+  {
+    "path": "apps/engine/strategies/base.py",
+    "sha256": "db572a5f657646729d6864ab050590b828f46684365273f78f90333fc05a9212"
+  },
+  {
+    "path": "apps/engine/strategies/breakout.py",
+    "sha256": "feb1b3dbe17480e5be1483505e2ddf76d0f621b59fd321531cb69ebdf7b5da7b"
+  },
+  {
+    "path": "apps/engine/strategies/event_driven/__init__.py",
+    "sha256": "36def6eab651751950b1eb9b9b661316967a5e372600f2a3c4e6cbe243bdd021"
+  },
+  {
+    "path": "apps/engine/strategies/event_driven/core.py",
+    "sha256": "5b8c3e36af3832f1e98cdca10ead610ee30e89fa4e276599e1ac1a99cdc63696"
+  },
+  {
+    "path": "apps/engine/strategies/events.py",
+    "sha256": "e5e46dd7cd7a877bfe2f1cad7c25e0fb5d29c97bbf0bc8e9d516d0139e6287b8"
+  },
+  {
+    "path": "apps/engine/strategies/library.py",
+    "sha256": "f92ad8e00359a787236fed170e82788adb109bb236a8d9b3f65e7a9d0184f245"
+  },
+  {
+    "path": "apps/engine/strategies/mean_reversion/__init__.py",
+    "sha256": "4a5c344e4bb78be24f57949ac912375cec8d0cc1aa538e0bae10a99964a65ad3"
+  },
+  {
+    "path": "apps/engine/strategies/mean_reversion/core.py",
+    "sha256": "e361a89258cada8aa1d41bd9f3a7c66045b0b60ad8c7d21608204e673dace51a"
+  },
+  {
+    "path": "apps/engine/strategies/momentum/__init__.py",
+    "sha256": "48d45eb03e4abca27baf5b92f4c0a039d7fd573e179e8d10d0b65c9f85af9655"
+  },
+  {
+    "path": "apps/engine/strategies/momentum/core.py",
+    "sha256": "a8d20b6b7f6445ef0e39782b808b63735306eada0b5d81d27734a6aad0d667cc"
+  },
+  {
+    "path": "apps/engine/strategies/pairs.py",
+    "sha256": "1850d0ce7fd80b60e98e5695d0ddaf1c7a538dd82e767a368436ecdc9009768d"
+  },
+  {
+    "path": "apps/engine/strategies/sector_rotation.py",
+    "sha256": "7f285b3c41d9cf352c434511b7aeac17dcc46c68523fb07be23609a27819df08"
+  },
+  {
+    "path": "apps/engine/strategies/stat_arb/__init__.py",
+    "sha256": "05d3496e9c0a198746cd5a89b6ee863250850461b0f63f3d3cc2f0ab6fe8e5be"
+  },
+  {
+    "path": "apps/engine/strategies/stat_arb/core.py",
+    "sha256": "7a81ce78dcf0b8c229717a25124f74a614aecf027ffdaa3bacb7012634b5807c"
+  },
+  {
+    "path": "apps/engine/strategies/utils.py",
+    "sha256": "faff06a7a8672ea17453651812f8e4d556e7dd7bb9ff69c3af50c491832662ba"
+  },
+  {
+    "path": "apps/engine/strategies/volatility/__init__.py",
+    "sha256": "673a6d4a9822346ddb220661666aaafe12d51961e19dcfb245e55974a229ca81"
+  },
+  {
+    "path": "apps/engine/strategies/volatility/core.py",
+    "sha256": "11692be111cd965e1398b60c91239053ebfd4c53fe991d967e86279cb379c199"
+  },
+  {
+    "path": "apps/engine/tests/conftest.py",
+    "sha256": "dbdfeaa06e6b2fda5ebb2526b19ca3ee726e8f8f4e170d52a19257affcb10732"
+  },
+  {
+    "path": "apps/engine/tests/test_advanced_analytics.py",
+    "sha256": "72e5506b2dd1bc13455dbbeda9d1068b18de1c1c352a09d4381f2e561dfe3990"
+  },
+  {
+    "path": "apps/engine/tests/test_backtesting_analytics.py",
+    "sha256": "5358a2a1ed149075b3e2aa07b1c2301f19e41529e53b2ac24bae7f845037356c"
+  },
+  {
+    "path": "apps/engine/tests/test_custom_portfolio.py",
+    "sha256": "3da114f6b94ea4ce9f33967a26cd9bc3c3fd1b82daad911f2e596a790f8a799d"
+  },
+  {
+    "path": "apps/engine/tests/test_execution_research.py",
+    "sha256": "344d67467bf3c86bc6760c35e81817a61f6bc6e8a5eb24febcdc1b45ea5ccf2d"
+  },
+  {
+    "path": "apps/engine/tests/test_flagship_api.py",
+    "sha256": "d6bdef938d7ab4b7825bde5e2dd1c3b1634afcc1c01bf01d4afffd426127c65d"
+  },
+  {
+    "path": "apps/engine/tests/test_paper_trading.py",
+    "sha256": "c0b7b6f4871e30ed92fb9e0e523dc2b6fb4ed9f9f6b673f4f6d728e875ad4a35"
+  },
+  {
+    "path": "apps/engine/tests/test_provider_history.py",
+    "sha256": "1c0eb7e1b94e063ceddf3f4d1abbb01ebfe633208e929ae169420eb7618c831c"
+  },
+  {
+    "path": "apps/engine/tests/test_qresearch_modeling.py",
+    "sha256": "69264d1b024556962818103bdd412ec9374eada1d06089926d45e7e6debfbeae"
+  },
+  {
+    "path": "apps/engine/tests/test_qresearch_options.py",
+    "sha256": "ace3f1c5551132e318d24ef49557e99b555e158b5d35ad446c1e0feaffbf7385"
+  },
+  {
+    "path": "apps/engine/tests/test_qresearch_replay.py",
+    "sha256": "bd218d17c50b929141196edf627ee761ba20bd3d7bf332988c6c43d1b1719f69"
+  },
+  {
+    "path": "apps/engine/tests/test_qresearch_risk.py",
+    "sha256": "1d14ebf2135f43882d3864a3ce5761b4a05e50f98fd963e6ddd2eb6cd7686438"
+  },
+  {
+    "path": "apps/engine/tests/test_qresearch_strategies.py",
+    "sha256": "91710b5bbf20c1cc12f00486b968429e2379cf560af39affbbb1606ca0d4d254"
+  },
+  {
+    "path": "apps/engine/tests/test_regime_portfolio.py",
+    "sha256": "2ec2cd77e6b27ebd7a346a62d2938f611fc3efc190d4dfb029ccad11752d5f23"
+  },
+  {
+    "path": "apps/engine/tests/test_research_skewness.py",
+    "sha256": "c6d18ab5e07b2fe3432b4ca6d5a4083b43c946812c6e73f425e96168d4f9b5df"
+  },
+  {
+    "path": "apps/engine/tests/test_research_workspace.py",
+    "sha256": "d24dabe5d23cd10614c55c354a57f7cd467ff5a96df196dfa2c7f5a1c1083928"
+  },
+  {
+    "path": "apps/engine/tests/test_sleeve_diagnostics.py",
+    "sha256": "77bdbdfbce536edca407b6fbada2faeae8b9dbff99fadd7ded20ae015e0fc6bc"
+  },
+  {
+    "path": "apps/engine/tests/test_strategies.py",
+    "sha256": "6630b325379820c8d2a1f747fdbf2122593e9282d9a870bd0827e92260156345"
+  },
+  {
+    "path": "apps/engine/tests/test_survival.py",
+    "sha256": "9d608a05558ce77fb00a4bc6d431740e41da5ec3b1b9a64afe22a184e52e624a"
+  },
+  {
+    "path": "apps/engine/tests/test_walkforward_robustness_validation.py",
+    "sha256": "66c95d8cc92643e9dd0aaeeb012c0bf3e0e96c990c3d15874ce938826e4b2ff2"
+  },
+  {
+    "path": "apps/engine/visualization/__init__.py",
+    "sha256": "4731c3dae413854cc29677f997cc4dcf1bfe9693b1f4ab56dca5b741c7ff9b23"
+  },
+  {
+    "path": "apps/engine/visualization/plots.py",
+    "sha256": "f8ae780f62b6892a8b1f33a405b6b3db1faddce80a93c49dd5faa3582aa5ede5"
+  },
+  {
+    "path": "apps/gateway/alpaca-paper.mjs",
+    "sha256": "592d12b19f20c7412e649cf4634670d0d0949ab9dc8e62c89ad196a5c32b9f2d"
+  },
+  {
+    "path": "apps/gateway/brokers.mjs",
+    "sha256": "cd3d829d723267d84b9b6d12f49b92ec4b9e93391542fedb96383dddabc5688a"
+  },
+  {
+    "path": "apps/gateway/codex-executable.mjs",
+    "sha256": "9850e489e61a21fee9ed51c981eaab90301ba315f1b2895e4a642e0b8ae220d7"
+  },
+  {
+    "path": "apps/gateway/codex.mjs",
+    "sha256": "792294005d5847bb585748c40fbcbe691a56dd01ec19bcf6ea58eb9d367c0938"
+  },
+  {
+    "path": "apps/gateway/engine.mjs",
+    "sha256": "62a7a76bf8c50dc49e861053cbcc02c315e09103824937e4e82d59c2cbc2c624"
+  },
+  {
+    "path": "apps/gateway/market-data.mjs",
+    "sha256": "e98339c0995a332d9d97115e9dfb3c4c45af1fa772355b3e2077198f803548ee"
+  },
+  {
+    "path": "apps/gateway/massive.mjs",
+    "sha256": "dd0856860c2d1e52d28e5d0c4092e0f952568db92bd2f3e7d9dc731d3b2a6f6f"
+  },
+  {
+    "path": "apps/gateway/paper-feed.mjs",
+    "sha256": "0f8dfdd144ad247a21f1cbb4a8d5ab9f00c66e3ef16a457bb51cfa34641e9981"
+  },
+  {
+    "path": "apps/gateway/quant-pool.mjs",
+    "sha256": "f4444710a69ae405bc39ad28a971d1b8c5afece3a6dd814e1ced791d1d7e925d"
+  },
+  {
+    "path": "apps/gateway/quant-worker.mjs",
+    "sha256": "622f8cabf98e817fdf586122b7e2df4a850338873f838d1a7171ccf649b8391c"
+  },
+  {
+    "path": "apps/gateway/server.mjs",
+    "sha256": "54987b5dfc3a524accf5b50754b1ec5394c4f634eebc4f307fbb44dbb69a4511"
+  },
+  {
+    "path": "apps/gateway/strategy-development.mjs",
+    "sha256": "f4ea29cc5fa3b89f7bcab879f3d0ac64d06fe7ebb71fbf44ebb416c23105bf87"
+  },
+  {
+    "path": "apps/gateway/tests/alpaca-paper-routes.test.mjs",
+    "sha256": "6e3f249c55475f354bcc3db462dc94edb2cd7b70751663ba0834bc9c184b8b95"
+  },
+  {
+    "path": "apps/gateway/tests/alpaca-paper.test.mjs",
+    "sha256": "5a58ec46098547e1a575e837e5ef2edc5dd9632792136af48989b956f2a90bfc"
+  },
+  {
+    "path": "apps/gateway/tests/codex-executable.test.mjs",
+    "sha256": "27c1318fa08c691a24ba574bd84157bfe5e9804cad481e1b4e5c3acd337ecd39"
+  },
+  {
+    "path": "apps/gateway/tests/connections.test.mjs",
+    "sha256": "2b24af171434816f33b5f068339dbe4bb9405b33cc3627c69b22a29e274ca008"
+  },
+  {
+    "path": "apps/gateway/tests/flagship-runtime.mjs",
+    "sha256": "485074d9a978bb2d0a9e8ee293d3cfbc44d18af22576c451369e30ae6330a679"
+  },
+  {
+    "path": "apps/gateway/tests/flagship.test.mjs",
+    "sha256": "bb21dff82e383620c5f011c5972e860ac61d4e219826c3181fa8e8f0aa3c7876"
+  },
+  {
+    "path": "apps/gateway/tests/market-data.test.mjs",
+    "sha256": "66384e1f1bf62f8c02bcfe13d7acef1b8b19587dee5505aaf26690f8a3709716"
+  },
+  {
+    "path": "apps/gateway/tests/paper-feed.test.mjs",
+    "sha256": "1b805503729121fcc845e2b4c98e1abdafcebc4ac344b3d638c4135357b4f095"
+  },
+  {
+    "path": "apps/gateway/tests/providers-runtime.test.mjs",
+    "sha256": "a2e5e919057728a9f7fc21b8bf091cefe4591ebec70e97acb4d7573b086c8588"
+  },
+  {
+    "path": "apps/gateway/tests/strategy-development.test.mjs",
+    "sha256": "59beea5f5e5fdcf4c68e4e5a15d7b1c5a49cf714d93c767e25a5566c6dd40cc1"
+  },
+  {
+    "path": "apps/gateway/tests/survival-runtime.test.mjs",
+    "sha256": "4a7a8c5af1032cb7290a492a40961e989461930a911a0ba7df7ae5b2f2486b33"
+  },
+  {
+    "path": "apps/web/.gitignore",
+    "sha256": "7a19a58d8749c1eb03ed6fafe13bc6d6b7bef273c9d0e6f9d76a20c064371b24"
+  },
+  {
+    "path": "apps/web/.npmrc",
+    "sha256": "7cd80af2e968119afd7b1803b6ac51b51ea010b8da57c3606ea1ef8071a86068"
+  },
+  {
+    "path": "apps/web/.openai/hosting.json",
+    "sha256": "b40d8da71041c9b574fbe6ad88088653fc8e631d34c7a8ee20a20a79844e1435"
+  },
+  {
+    "path": "apps/web/app/api/backtests/route.ts",
+    "sha256": "1e42ff8638cb24c88755b353a0ff73e91de6b38331a6d24379498cd7f473859d"
+  },
+  {
+    "path": "apps/web/app/api/health/route.ts",
+    "sha256": "2b758925cd1d44b34a8fa10c5cfcbb9bcbf32bcbdc0525ac662a3fe5744f45d8"
+  },
+  {
+    "path": "apps/web/app/api/markets/route.ts",
+    "sha256": "d1b9685f5717ab34aec71c57fb743a9f443f7075e357bc24a815bee18483df5d"
+  },
+  {
+    "path": "apps/web/app/chatgpt-auth.ts",
+    "sha256": "e19651c2d1db12696883ae3eb79d4f09dce249f7afa1144a62d544e2e18299ca"
+  },
+  {
+    "path": "apps/web/app/globals.css",
+    "sha256": "272e9af53c7a6e1695db914453d4ce3b345d030d5bd4af569fc3ce945111fda9"
+  },
+  {
+    "path": "apps/web/app/layout.tsx",
+    "sha256": "a841fc4c3443845efd6bde72d49e731f73cf1df62b325163a28f67ed10f4e548"
+  },
+  {
+    "path": "apps/web/app/page.tsx",
+    "sha256": "80d706eed0afc1a5fccc3c126ed7296027faf8ca2d18b00aa9cb9546adc27552"
+  },
+  {
+    "path": "apps/web/build/sites-vite-plugin.LICENSE",
+    "sha256": "3dd119f149df88296e82981a51e5131b1018ba2e2f2f6f4bbec2b83d58a43a45"
+  },
+  {
+    "path": "apps/web/build/sites-vite-plugin.ts",
+    "sha256": "bc5b2bb97174623bcec2944830e40c859c12fede8b79a5bd326dffcb9c685922"
+  },
+  {
+    "path": "apps/web/cloudflare-env.d.ts",
+    "sha256": "2ac980b29c91b8324a0d7864ec329c41e513fe81165aaffbc1220b8e85812759"
+  },
+  {
+    "path": "apps/web/components.json",
+    "sha256": "820e913f34219d16b5e7ec5865df9c444bb5b8acf230db4e589d660e4a21743e"
+  },
+  {
+    "path": "apps/web/components/alpaca-paper-connection.tsx",
+    "sha256": "b87e89734db30dadb9666a19dec8472e6d665d3a112403bc0f590f7dacb3625c"
+  },
+  {
+    "path": "apps/web/components/connections-panel.tsx",
+    "sha256": "e565c9e084833f65ef7d2ed713b7751582531a4648f9c38d0323f8b5fdab3acf"
+  },
+  {
+    "path": "apps/web/components/data-panel.tsx",
+    "sha256": "557632054a3cde6b3ce89a2e96a02c405e188b8f96261f157643c9803ce630dc"
+  },
+  {
+    "path": "apps/web/components/flagship/allocation-replay.tsx",
+    "sha256": "6a2ea68c245624c447f7df3beaf652371479025a90b1c2ce1119c42590c63f40"
+  },
+  {
+    "path": "apps/web/components/flagship/evidence-candles.tsx",
+    "sha256": "a749b321cecbe91ede46fe4482ca88082cde2a2cf69c320b7e827e690a4a0341"
+  },
+  {
+    "path": "apps/web/components/flagship/evidence-inputs.tsx",
+    "sha256": "57e079b3c36bb294b7e24a7b19384ced80e841111e7a35ad8c2c59a29dc0c2d3"
+  },
+  {
+    "path": "apps/web/components/flagship/evidence-workspace.tsx",
+    "sha256": "1907dd32ee62effd529bfe8d58a85ed26fcaf6c0b4ca8d56c0f64786263a9f9d"
+  },
+  {
+    "path": "apps/web/components/flagship/performance-plot.tsx",
+    "sha256": "f940fd317e7b369deddee6801207ea68ea26b8442ebf161a143ad22859a1e63c"
+  },
+  {
+    "path": "apps/web/components/flagship/portfolio-research.tsx",
+    "sha256": "92e374158cc3f7f9a5854a8f71a56964135790c626fb1297009e2f7ad5f32042"
+  },
+  {
+    "path": "apps/web/components/flagship/research-evidence.tsx",
+    "sha256": "5f35197872c85f122e1a9362940f430c00be7386537d54850601277d7d272525"
+  },
+  {
+    "path": "apps/web/components/flagship/research-layout.css",
+    "sha256": "01a3f3f8f2b29b136152fcca7f7fe31ba77728f82e3746f4127c05a4e890dba0"
+  },
+  {
+    "path": "apps/web/components/flagship/research-mandate.tsx",
+    "sha256": "4b2bfe72e4fd0e87aa9c40b3f3432c32cf0e11991dfb3334328a23b99402b11c"
+  },
+  {
+    "path": "apps/web/components/flagship/research-primitives.tsx",
+    "sha256": "a9832942339c144ac207be87f1170f9fced7a4dc78c2f3553bdb22002b3ebf7d"
+  },
+  {
+    "path": "apps/web/components/flagship/research-sleeves.tsx",
+    "sha256": "87b6ae90984b5b4807935c8653851dc7d5250f41d7b63be6f4fbdaae85c95b84"
+  },
+  {
+    "path": "apps/web/components/flagship/research-workspace.tsx",
+    "sha256": "e8f1bea668052b060cc75f551ccd8c32fedcdcf523095641cd8befa8887bd880"
+  },
+  {
+    "path": "apps/web/components/flagship/survival-dashboard.tsx",
+    "sha256": "23e1554731bc8cd255ac6b27883e03b7451b7197da23b9333be15bdda78fa8b7"
+  },
+  {
+    "path": "apps/web/components/market-browser.tsx",
+    "sha256": "bb0e92a38659b99e4827356dce468206540c4e6b6b50ee695595d34fbc06057d"
+  },
+  {
+    "path": "apps/web/components/massive-connection.tsx",
+    "sha256": "35ef0e8062bcbc8eb29ecee87a78067e7403a16b2cad305552aea0c080108216"
+  },
+  {
+    "path": "apps/web/components/paper-trading.tsx",
+    "sha256": "f8e12a24cbdcf079e080c03ccdf419cd2b71317bbe57b3fc11a91f6ffe6dfe24"
+  },
+  {
+    "path": "apps/web/components/strategy-development.tsx",
+    "sha256": "d7b772b43bf3d46aa5c8fb001d41167b9fe309073454c02d54ebdf45b42cc721"
+  },
+  {
+    "path": "apps/web/components/terminal-charts.tsx",
+    "sha256": "0d25d1ca418fa9e99a687167d8862d494464873e11bd7a031d6a3f9c46cdaece"
+  },
+  {
+    "path": "apps/web/components/terminal.tsx",
+    "sha256": "586af8056be6bcdeda1f0599229f72b34362169c8002d32a02761e8d95fe5b28"
+  },
+  {
+    "path": "apps/web/components/ui/alert-dialog.tsx",
+    "sha256": "1ca7530a1f4727642aa96c619a320bc21488eb3bd6cf00666ef6fa3b1e346de0"
+  },
+  {
+    "path": "apps/web/components/ui/badge.tsx",
+    "sha256": "9f25d280c75ac367fb5bbeea5f2f0f0fe10be226e364678b065069ec62dfaa06"
+  },
+  {
+    "path": "apps/web/components/ui/button.tsx",
+    "sha256": "38447e736fdb7524f96f4adb6eada4ff9e4e68cf9eeb2415c357544ff347e8a3"
+  },
+  {
+    "path": "apps/web/components/ui/card.tsx",
+    "sha256": "d213fee777a9c38c3276b0e6b14707987302b83308baf4656dc1d5ae0610053f"
+  },
+  {
+    "path": "apps/web/components/ui/chart.tsx",
+    "sha256": "f60244582b56d42fb6631f9ac7026f3ea421d8cc31bfdda0e7727cae2a064687"
+  },
+  {
+    "path": "apps/web/components/ui/command.tsx",
+    "sha256": "67bc4de1f69b46c405ea1209a40a9b08a2e301aa8d36d3c54ce1b05c3039eb6e"
+  },
+  {
+    "path": "apps/web/components/ui/dialog.tsx",
+    "sha256": "7ba15f4c9dd993977d4d3dc70aef92d3e95548a32e5edc6f268c44921bbc15e8"
+  },
+  {
+    "path": "apps/web/components/ui/input.tsx",
+    "sha256": "44714284bdbafbf7634a4807eff5d6b493b5b5fc1a562a269a874de1eb50ea7c"
+  },
+  {
+    "path": "apps/web/components/ui/native-select.tsx",
+    "sha256": "d62b4479c6419a37ee748b1a6536c51d6676a3a04afdea27619e6481b6cdb442"
+  },
+  {
+    "path": "apps/web/components/ui/progress.tsx",
+    "sha256": "c6f42ff7f284ce9e965b1bad059dd401a951d6254e5070877b129ff8195c7707"
+  },
+  {
+    "path": "apps/web/components/ui/select.tsx",
+    "sha256": "f4434ef49e240b581e951cee362cb57e11e8a9bbbe4238395a034ba599ce298c"
+  },
+  {
+    "path": "apps/web/components/ui/separator.tsx",
+    "sha256": "8cdd3c705eb6b04bbe8fbe87cc5f193de72b17d85f02020f7e4e9bd206c50f59"
+  },
+  {
+    "path": "apps/web/components/ui/sheet.tsx",
+    "sha256": "57d5e84b5b1ac6d1769dc53632b52236096140df8f3a4a10e8343bd73d186290"
+  },
+  {
+    "path": "apps/web/components/ui/sidebar.tsx",
+    "sha256": "9c1bde67f0788f274814e3cea69c7aaabd21a41a44d76e1f14b60f5edd8d7102"
+  },
+  {
+    "path": "apps/web/components/ui/skeleton.tsx",
+    "sha256": "85957151311e53eb49bdb54f5e2e6d8ff4461b14d887d8073e0cde846d539691"
+  },
+  {
+    "path": "apps/web/components/ui/sonner.tsx",
+    "sha256": "f4d2c855754828ceed89ad6455aa8082f80566d82c3ab79b8db5271c5102b632"
+  },
+  {
+    "path": "apps/web/components/ui/table.tsx",
+    "sha256": "02d16a0d04c4fd2990ef41d9c5963335aa0eec93d41518e18476656113894626"
+  },
+  {
+    "path": "apps/web/components/ui/tabs.tsx",
+    "sha256": "3a200c6fa6d683681f066f1e9b3868ef22d3cf9d3d925d7364edae9900484aa3"
+  },
+  {
+    "path": "apps/web/components/ui/tooltip.tsx",
+    "sha256": "2ed212576e61f83f86a4ea00d40751181e5889b2bf8d660eede5d0adee46cb76"
+  },
+  {
+    "path": "apps/web/db/index.ts",
+    "sha256": "effa59e46bcbb42dfb7b46911e809a1de0f2c37df1fd935e3dca89023eaf97e4"
+  },
+  {
+    "path": "apps/web/db/schema.ts",
+    "sha256": "a1973fb5b456080c2d02652260bdfc39ffb7d18de6009ef39231f0628f401549"
+  },
+  {
+    "path": "apps/web/drizzle.config.ts",
+    "sha256": "73d0807c58e541dc3eaf175909fb5acc966faed61f74ff659d9d55027bf3e25b"
+  },
+  {
+    "path": "apps/web/drizzle/meta/_journal.json",
+    "sha256": "5a5f57f8f48fcf1d065725c0f3dab19e590e96e7e1e5bf8ddff17339a0de8d9a"
+  },
+  {
+    "path": "apps/web/eslint.config.mjs",
+    "sha256": "8ca86af56c21d433c46bfebeb8980b64b6d4ffa0dc3cf3d2ec1ad923b983f38c"
+  },
+  {
+    "path": "apps/web/hooks/use-integrations.ts",
+    "sha256": "944215e67bcb5bdd7a4ac5b22874b27cca1f3608be1a85272458e3a59adf5515"
+  },
+  {
+    "path": "apps/web/hooks/use-market-data.ts",
+    "sha256": "7e777df7944c153b944aaec8bea02e379e4036c62ac6a7f5e62d5ec314d3ce1d"
+  },
+  {
+    "path": "apps/web/hooks/use-mobile.ts",
+    "sha256": "d2377fbad5ad2bdf7fa896a68c36ac8bf4aa74a974b2061f77b41ae58d623001"
+  },
+  {
+    "path": "apps/web/lib/flagship/evidence-results.ts",
+    "sha256": "1a666cfeecac4afce78e8311476df86bfa5f4b16c511150502e31b71f1cbb6ec"
+  },
+  {
+    "path": "apps/web/lib/flagship/portfolio.ts",
+    "sha256": "a6fb19515a9a39e31596d5a284a9bc450e9c1b4905121fa4a92f7774a8319c89"
+  },
+  {
+    "path": "apps/web/lib/flagship/research.ts",
+    "sha256": "7d7b76d0964cae60fd182df76fd6cb8334fcfa83716780a7260b9e5331ca4edb"
+  },
+  {
+    "path": "apps/web/lib/flagship/survival.ts",
+    "sha256": "792092a27cef99849a2196d1caab34e3bfa503c51e71673c75285d0bf12827b2"
+  },
+  {
+    "path": "apps/web/lib/flagship/use-portfolio-tools.ts",
+    "sha256": "3975165fc250e2f6f011f0e99ab2a5bf6b58cd242bd36a3801c36ead54704913"
+  },
+  {
+    "path": "apps/web/lib/market-types.ts",
+    "sha256": "7dbd36c0372a63fc96cdaa7e5b43a91a80dc8f4d8a84fdccba8f2a398ab439c4"
+  },
+  {
+    "path": "apps/web/lib/paper-trading.ts",
+    "sha256": "4620720b03d4110f60d64e4e7306ffc892f25f5a7ff20a1b7ba82b6162f0d249"
+  },
+  {
+    "path": "apps/web/lib/paper.ts",
+    "sha256": "bd30680583a9343c2f62ffa02150aecf741a55ee580bc5efcc62cfc613b191ae"
+  },
+  {
+    "path": "apps/web/lib/performance-colors.ts",
+    "sha256": "9fc51abd83f462de797ec527aebea1d6a3e9a5354b799c600145db67bb77ea2e"
+  },
+  {
+    "path": "apps/web/lib/quant.ts",
+    "sha256": "9c91ee2406548b4416504722d14accd4370d32c92732b5a8e7c057411eb77762"
+  },
+  {
+    "path": "apps/web/lib/utils.ts",
+    "sha256": "c2aa0cde88a8b5b5db7718003da1a345bdcce5f31085800b66ff0dddedfb0254"
+  },
+  {
+    "path": "apps/web/next.config.ts",
+    "sha256": "a972c4f0ffa6dd714e7909b02d1ac19d2f2fe3d01f191efd2c5054bd6f142ec1"
+  },
+  {
+    "path": "apps/web/package-lock.json",
+    "sha256": "cf7e52e8f539307051eb23acff4ce06f935030948e35bd9128a18a0560f7cb75"
+  },
+  {
+    "path": "apps/web/package.json",
+    "sha256": "3bff4c44f6e37c918157a64fe4640b244a8cd8da415d0549aa793d644a3c4f03"
+  },
+  {
+    "path": "apps/web/postcss.config.mjs",
+    "sha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21"
+  },
+  {
+    "path": "apps/web/public/favicon.svg",
+    "sha256": "64afc6c0f86e98b41cd9d94469dbaf2889321d9ebd4f29ab247d3658ad878651"
+  },
+  {
+    "path": "apps/web/README.md",
+    "sha256": "daba3d5088dfbb85b2e983fbedd5c5b0157d66028648064bb17f404954bb9f21"
+  },
+  {
+    "path": "apps/web/scripts/install-ci.mjs",
+    "sha256": "3e66060fc38d9c5ec372ef917c31cb509d952283f02503fcba6310a464135857"
+  },
+  {
+    "path": "apps/web/scripts/sites-env.mjs",
+    "sha256": "4cb12e49c5eec402d920cd98d74ebc3267c9a38b0f63445a619d4271979dd774"
+  },
+  {
+    "path": "apps/web/scripts/smoke-api.mjs",
+    "sha256": "3f15ff17a61f28f9dd43dd02e8b4bb7711c63ffe43a404ed86a6c9ed5876bad4"
+  },
+  {
+    "path": "apps/web/tests/fixtures.mjs",
+    "sha256": "dee48f10616bd9f12a5b4c08d93b98531050f0914220fe28e7845d3e9c4b97ce"
+  },
+  {
+    "path": "apps/web/tests/flagship-portfolio.test.mjs",
+    "sha256": "fa07935926291b9340b2601b68d1566e061ce30c4829edbb01343447f6c0b958"
+  },
+  {
+    "path": "apps/web/tests/flagship-research.test.mjs",
+    "sha256": "36cc5ca3853e40b31c4c57fc72163e1d920315125a3f95d4b3756a820ddb16b2"
+  },
+  {
+    "path": "apps/web/tests/flagship-results.test.mjs",
+    "sha256": "ec97bf0735bf34bfaabd4b6aa0b293d431f50216dc653f97d646564cc060e147"
+  },
+  {
+    "path": "apps/web/tests/performance-colors.test.mjs",
+    "sha256": "9e076ac6f19b2880418cb4fca2ffb3998c8d4fc2d55d53aefa7f0f1fb09e3b2e"
+  },
+  {
+    "path": "apps/web/tests/quant.test.mjs",
+    "sha256": "9ae3c3ac64413842b0dc382b567fcaa3d32aff8027cf41c1483a1dc55f64ab72"
+  },
+  {
+    "path": "apps/web/tsconfig.json",
+    "sha256": "755d473a6eb4f384deb37066c554995d9af3d3eb1e5b566ee7fbbf80a9dda208"
+  },
+  {
+    "path": "apps/web/vendor/shadcn-tailwind-4.13.0.css",
+    "sha256": "f221d959e80b4738fba93b4b4f01472b11cccaf6043ba7f6f9376f6768dad28e"
+  },
+  {
+    "path": "apps/web/vendor/shadcn-tailwind-4.13.0.LICENSE.md",
+    "sha256": "a14c2d6fb5ba9925cba04633226a3b93e6c5566ca6b550dbfaead7ab3fa93b24"
+  },
+  {
+    "path": "apps/web/vite.config.ts",
+    "sha256": "3c4df1c0fec76624a6eea88d8f062faef75674a30b405031679aeb66d05357a6"
+  },
+  {
+    "path": "docs/connections.md",
+    "sha256": "8799bc6572d399c535b57f2c3c87914117f529634c4e7c5e477ad08057f1aa12"
+  },
+  {
+    "path": "docs/flagship-source-manifest.json",
+    "sha256": "2cef0996e6e968ae021550c36625adcabf09bd74cf8ced34e90f29a1f38ba2d5"
+  },
+  {
+    "path": "docs/flagship.md",
+    "sha256": "757be32a238aa6aa69f8c382d26294d960af918c2340f61817de27ad48c5c7d7"
+  },
+  {
+    "path": "docs/implementation.md",
+    "sha256": "e071f93f7bffb432f80616e140cea68822e4fb819df3850aa81fe134dc6d1638"
+  },
+  {
+    "path": "docs/paper-trading.md",
+    "sha256": "739bb773d1ae8eb69114c08bf1842465b26879a9c3f5d90209874a60a2955bd6"
+  },
+  {
+    "path": "docs/q-research-integration.md",
+    "sha256": "f4287ffebfbf6bf48d9e5a24e975eeb8a1d1b7ed582aad29ec696360f36b0144"
+  },
+  {
+    "path": "docs/real-market-data.md",
+    "sha256": "31c611f0eb82caa8030070e9e7a2d3a3c1e07ddb67031c4956209b540e36fd51"
+  },
+  {
+    "path": "docs/strategy-survival.md",
+    "sha256": "be9397c3a0e8700798366a27f25b732b570ebd3c4b851d917ac0b116ad0f8e5f"
+  },
+  {
+    "path": "README.md",
+    "sha256": "778fdf47823760179c7776f225971661cacffdf60bdbac48399d4fac9b33d2ed"
+  },
+  {
+    "path": "setup-flagship.ps1",
+    "sha256": "47ff37e82b11ecadea8cb3406d0ae69530574e3f1460dd1ff0f43cf7e9e441b1"
+  },
+  {
+    "path": "start-ibkr.ps1",
+    "sha256": "2a78595b836e4a70285d213f9df81223ef0f460cba7c24c64e2af2efac220332"
+  },
+  {
+    "path": "start-q21.ps1",
+    "sha256": "83c3b86325367bfd75c1a0fb34951ffd314db263a0d40a2153a4f9d5cccb0489"
+  }
+]

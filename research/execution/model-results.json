@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "input_sha256": "926918978e27f3c8b5d661f926718a5234a51bb2051e404ac8e8ce19d5452262",
+  "risk": {
+    "assets_equal_dollar": [
+      "MSFT",
+      "JPM",
+      "XOM",
+      "JNJ",
+      "PG"
+    ],
+    "portfolio_usd": 100000,
+    "paths_per_scenario": 10000,
+    "confidence": 0.95,
+    "seed": 53021,
+    "trailing_calibration_returns": 252,
+    "holdout_one_session": {
+      "first": "2020-01-02",
+      "last": "2025-12-31",
+      "observations": 1508,
+      "var_exceedances": 75,
+      "exceedance_rate": 0.04973474801061008,
+      "nominal_exceedance_rate": 0.050000000000000044,
+      "adjacent_breach_pairs": 9,
+      "subsequent_sessions_after_breach": 75,
+      "binomial_exact_two_sided_p_iid_null": 1.0,
+      "exceedance_rate_exact_95pct_interval_iid": [
+        0.039317416907545436,
+        0.06194677170378975
+      ],
+      "mean_var_usd": 1720.2687736618843,
+      "mean_es_usd": 2166.467908561032,
+      "mean_loss_on_var_breaches_usd": 2460.7101550029856,
+      "mean_forecast_es_on_var_breaches_usd": 1779.1213228302147
+    },
+    "terminal_21_session_stress": {
+      "calibration_first_price": "2024-12-27",
+      "as_of": "2025-12-31",
+      "config": {
+        "history_id": "",
+        "weights": {},
+        "source_result_id": "",
+        "initial_value": 100000.0,
+        "paths": 10000,
+        "horizon": 21,
+        "confidence": 0.95,
+        "volatility_shock": 2.0,
+        "correlation_strength": 0.9,
+        "seed": 53021
+      },
+      "scenarios": [
+        {
+          "scenario": "Baseline",
+          "var_loss": 4561.111413035392,
+          "expected_shortfall_loss": 6139.33674235522,
+          "median_drawdown_percent": -2.85463269439839,
+          "loss_probability": 0.335
+        },
+        {
+          "scenario": "Volatility shock",
+          "var_loss": 9953.320967057587,
+          "expected_shortfall_loss": 12875.460244695372,
+          "median_drawdown_percent": -5.987924654593329,
+          "loss_probability": 0.3929
+        },
+        {
+          "scenario": "Correlation spike",
+          "var_loss": 8130.946101253403,
+          "expected_shortfall_loss": 10434.312008468673,
+          "median_drawdown_percent": -4.965609823594336,
+          "loss_probability": 0.4081
+        },
+        {
+          "scenario": "Correlation breakdown",
+          "var_loss": 3032.3822616860784,
+          "expected_shortfall_loss": 4254.050082132287,
+          "median_drawdown_percent": -2.027881769893358,
+          "loss_probability": 0.2889
+        }
+      ]
+    }
+  },
+  "derivatives": {
+    "pricing": {
+      "parameter_sets": 30,
+      "spot_step": 0.01,
+      "max_put_call_parity_error": 1.4210854715202004e-14,
+      "max_delta_finite_difference_error": 6.105777537041002e-08,
+      "max_gamma_finite_difference_error": 4.038291004371253e-08
+    },
+    "market_making": {
+      "source": "seeded GBM and simulated customer order arrivals",
+      "common_seed_first": 0,
+      "common_seed_last": 63,
+      "seed_pairs": 64,
+      "hedged_configuration_first_seed": {
+        "spot": 100.0,
+        "strike": 100.0,
+        "maturity_years": 0.11904761904761904,
+        "rate": 0.02,
+        "volatility": 0.22,
+        "option_type": "call",
+        "initial_cash": 100000.0,
+        "seed": 0,
+        "steps": 780,
+        "steps_per_day": 78,
+        "drift": 0.04,
+        "multiplier": 100,
+        "max_contracts": 25,
+        "spread_bps": 35.0,
+        "min_spread": 0.03,
+        "tick_size": 0.01,
+        "inventory_skew": 0.12,
+        "arrival_probability": 0.62,
+        "mean_quantity": 4.0,
+        "option_fee_per_contract": 0.02,
+        "hedge_threshold_shares": 15.0,
+        "hedge_cost_bps": 0.5,
+        "hedge_slippage_bps": 1.0
+      },
+      "unhedged_threshold_shares": 100000,
+      "mean_across_paths": {
+        "unhedged": {
+          "delta_rmse_shares": 482.5670769519791,
+          "hedging_error_rmse": 75.86007704532602,
+          "net_pnl": -1457.6887951893898,
+          "max_drawdown_percent": -3.277460464343372,
+          "accepted_trades": 442.421875,
+          "rejected_trades": 38.5,
+          "option_fees": 43.42999999999994,
+          "hedge_fees": 0.0,
+          "hedge_slippage": 0.0
+        },
+        "delta_hedged": {
+          "delta_rmse_shares": 219.98686588592832,
+          "hedging_error_rmse": 34.80977360721658,
+          "net_pnl": -2836.303475746865,
+          "max_drawdown_percent": -3.58714508362383,
+          "accepted_trades": 864.671875,
+          "rejected_trades": 102.078125,
+          "option_fees": 42.70343749999995,
+          "hedge_fees": 508.6458970195785,
+          "hedge_slippage": 1017.2920434482849
+        }
+      },
+      "mean_paired_delta_rmse_change_shares": -262.58021106605077,
+      "mean_paired_delta_rmse_change_bootstrap_95pct": [
+        -283.41681396479066,
+        -241.51635758291206
+      ],
+      "bootstrap_seed": 53021,
+      "bootstrap_repetitions": 10000
+    }
+  }
+}

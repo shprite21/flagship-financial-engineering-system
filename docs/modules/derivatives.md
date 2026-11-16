@@ -1,0 +1,7 @@
+# Derivatives Pricing & Market Making
+
+The terminal prices European options in Python and C++, computes Greeks, and simulates a dealer quoting to stochastic customers. A hedge target becomes eligible at the following event. Cash, collateral, fees, slippage and whole-unit positions constrain fills. The pricing check measured a maximum put–call parity residual of 1.42 × 10⁻¹⁴ across 30 cases. [Pricing](../../apps/engine/qresearch/options.py) · [C++ implementation](../../apps/engine/qresearch/cpp/) · [Dealer simulation](../../apps/engine/qresearch/option_simulation.py)
+
+Does discrete delta hedging reduce inventory risk enough to offset execution costs? Across 64 paired synthetic paths of 780 events, mean residual delta RMSE fell from **482.57 to 219.99 shares**. Mean terminal marked P&L fell from **−$1,458 to −$2,836**. Hedge fees averaged $509 per path and hedge slippage averaged $1,017. The paired 95% bootstrap interval for the reduction in delta RMSE was 241.52 to 283.42 shares. Open positions were marked at the final event. This experiment measures risk and cost under the specified customer-flow model. [Parameters, results and reproduction](../../research/execution/README.md) · [Machine-readable measurements](../../research/execution/model-results.json)
+
+Open **Research evidence → Derivatives pricing and market making → Open workbench** to run the hedging experiment, price options or compare the Python and C++ implementations. The [CUDA pricing lab](../../research/labs/cuda-pricing/) also prices European calls by Monte Carlo.

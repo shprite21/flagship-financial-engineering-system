@@ -1,0 +1,31 @@
+{
+  "data": {
+    "path": "../data/synthetic_returns.csv",
+    "label": "Synthetic four-sleeve portfolio",
+    "kind": "simple_returns",
+    "date_column": "date",
+    "missing": "error",
+    "duplicates": "error"
+  },
+  "simulation": {
+    "paths": 10000,
+    "horizon_days": 21,
+    "seed": 1729
+  },
+  "portfolio": {
+    "initial_capital": 1000000,
+    "currency": "USD",
+    "weights": {"Equity": 0.40, "Rates": 0.30, "Commodities": 0.15, "Trend": 0.15}
+  },
+  "confidence_levels": [0.95, 0.99],
+  "scenarios": [
+    {"name": "Volatility shock", "volatility_multiplier": 1.5},
+    {"name": "Correlation breakdown", "correlation_blend": 0.65},
+    {
+      "name": "Combined stress",
+      "volatility_multiplier": {"Equity": 1.5, "Rates": 1.25, "Commodities": 1.6, "Trend": 1.4},
+      "correlation_blend": 0.65
+    }
+  ],
+  "output_dir": "../outputs"
+}

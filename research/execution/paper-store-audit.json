@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "inspected_utc": "2026-11-16T04:59:38+00:00",
+  "scope": "Aggregate counts in closed local terminal stores. A missing database is recorded as null.",
+  "broker_account_evidence": "outside scope of local store audit",
+  "terminal_v2": {
+    "paper/paper.sqlite": {
+      "deployments": 0,
+      "events": 0
+    },
+    "flagship/survival/registry.sqlite": {
+      "manual_registrations": 2,
+      "demo_registrations": 2,
+      "manual_signals": 0,
+      "manual_observations": 0
+    },
+    "india/manual-journal.sqlite": {
+      "manual_journal_events": 0
+    }
+  },
+  "predecessor": {
+    "paper/paper.sqlite": {
+      "deployments": 0,
+      "events": 0
+    },
+    "flagship/survival/registry.sqlite": {
+      "manual_registrations": 0,
+      "demo_registrations": 0,
+      "manual_signals": 0,
+      "manual_observations": 0
+    },
+    "india/manual-journal.sqlite": null
+  }
+}

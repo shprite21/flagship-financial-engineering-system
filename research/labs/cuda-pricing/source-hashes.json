@@ -1,0 +1,11 @@
+{
+  "CMakeLists.txt": "00c430a229df17188d3cec6ae33508dc26bcec38921084fb0861996dd8f3b4a0",
+  "include/pricing.hpp": "f53a3ffac69b50fbed0d58d6c45974c5b4c5862e60b59fa80b18e57e3f5a3b8d",
+  "src/main.cpp": "e4137d51c50980fb047263a7b161b1d21cdedd3aea8926a389d6f13e2f4d3fe3",
+  "src/pricing.cpp": "6f4593c6d897943c02c89b5e44fe1b5c277b0295fe00c9b8a9b8ee7861e002fe",
+  "src/pricing_cuda.cu": "d1ae7e6664e00494534c259d797f300edcdd1b0b75ba51accec96f4488fd03c3",
+  "src/pricing_stub.cpp": "710b86c774742f3c8d86811f4afb80f44c422613d22aa4f94c2553b2283128fc",
+  "tests/expect_no_gpu.cmake": "6e901c2ac6365a8c6a8837e4e489485ff8cde8fe0e2a611a6c275254c92b6752",
+  "tests/test_pricing.cpp": "a33ab32a144e5ba4fdb24d111a42e323246b76fd4f4581ad67a5a84ef9e1d9bf",
+  "tests/test_rng.cu": "73ab6f883aae7c5e4f5c19728749177e14980b23f1e47f428ab3f13cc42ae904"
+}

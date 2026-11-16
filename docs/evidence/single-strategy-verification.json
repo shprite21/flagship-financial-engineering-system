@@ -1,0 +1,225 @@
+{
+  "verified_at_utc": "2026-10-05T12:00:54.908279+00:00",
+  "scope": "Q V2 single-strategy lifecycle; synthetic demonstrations, no live or broker execution",
+  "tests": {
+    "python": 342,
+    "web": 49,
+    "gateway": 39,
+    "total": 430,
+    "python_warnings": 4,
+    "new_lifecycle_allocation_cases": 33,
+    "typescript": "passed",
+    "production_build": "passed",
+    "log": "outputs/verification/lifecycle-full-final.log"
+  },
+  "source": {
+    "dependencies": {
+      "hmmlearn": "0.3.3",
+      "numpy": "2.5.2",
+      "pandas": "3.0.5",
+      "pydantic": "2.13.5",
+      "scikit-learn": "1.9.0",
+      "scipy": "1.18.1",
+      "statsmodels": "0.15.0",
+      "yfinance": "1.7.0"
+    },
+    "execution": {
+      "allow_short": false,
+      "annual_borrow_bps": 100.0,
+      "drift_between_rebalances": true,
+      "execution_lag": 1,
+      "initial_capital": 1000000.0,
+      "rebalance_frequency": "W-FRI",
+      "slippage_bps": 3.0,
+      "transaction_cost_bps": 2.0
+    },
+    "git_revision": "unavailable",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "source_sha256": "897ede0c3a479ffcdd24588ad46aed85baa720f8cfdb8965852ef8d68b13c1be",
+    "working_tree_dirty": null
+  },
+  "fixed_example": {
+    "directory": "outputs/project-example/20261005T115648725835Z",
+    "label": "SYNTHETIC WORKFLOW DEMONSTRATION; NOT MARKET PERFORMANCE",
+    "project_id": "1c1bbd37f14be77f449f0aa42ec17517181751f5965711be0cd505dedb42a1ac",
+    "trial_id": "471f244a371941391aba78d10c870c96339291fbe50fde7e0a772ef44495b52c",
+    "validation_id": "843ac752b5846d1946c3ef7394dedf3af35a7d48227f85365370fda158a8c4ef",
+    "strategy_version_id": "a8f452d8a3620a6204981ba5535140964d5c1e00ea61b65708c38082442f4ffd",
+    "checks": {
+      "single_strategy": true,
+      "reserved_data_excluded": true,
+      "eighteen_layers": true,
+      "oos_reveal_recorded": true,
+      "immutable_freeze": true,
+      "prospective_empty": true,
+      "report_21_sections": true,
+      "live_disabled": true
+    },
+    "validation": {
+      "counts": {
+        "FAIL": 0,
+        "N-A": 3,
+        "PASS": 1,
+        "WARN": 14
+      },
+      "hard_failures": [],
+      "interpretation": "Diagnostic coverage and configured gates, not a score or investment approval. WARN requires review; N-A is not evidence of survival.",
+      "live_eligible": false,
+      "research_gates_satisfied": true,
+      "status": "WARN",
+      "unresolved_failure_gates": [],
+      "unresolved_required_layers": []
+    },
+    "comparison": [
+      {
+        "metric": "total_return",
+        "historical": 0.039851114203156346,
+        "walk_forward": 0.04694392742163678,
+        "reserved_oos": -0.03668207207074392,
+        "prospective": null
+      },
+      {
+        "metric": "cagr",
+        "historical": 0.01671653521713412,
+        "walk_forward": 0.02500975025688179,
+        "reserved_oos": -0.050975334642392234,
+        "prospective": null
+      },
+      {
+        "metric": "volatility",
+        "historical": 0.08475670362321423,
+        "walk_forward": 0.0838082412836829,
+        "reserved_oos": 0.09188885838352367,
+        "prospective": null
+      },
+      {
+        "metric": "sharpe",
+        "historical": 0.23793780262791472,
+        "walk_forward": 0.33659237343846876,
+        "reserved_oos": -0.5236270075572188,
+        "prospective": null
+      },
+      {
+        "metric": "sortino",
+        "historical": 0.3337158244093817,
+        "walk_forward": 0.47408232077713364,
+        "reserved_oos": -0.7222898419488488,
+        "prospective": null
+      },
+      {
+        "metric": "max_drawdown",
+        "historical": -0.1375603161788943,
+        "walk_forward": -0.12367781781735698,
+        "reserved_oos": -0.056541533991430915,
+        "prospective": null
+      },
+      {
+        "metric": "annual_turnover",
+        "historical": 11.009471136068013,
+        "walk_forward": null,
+        "reserved_oos": null,
+        "prospective": null
+      },
+      {
+        "metric": "hit_rate",
+        "historical": 0.5252525252525253,
+        "walk_forward": 0.5299145299145299,
+        "reserved_oos": 0.4888888888888889,
+        "prospective": null
+      },
+      {
+        "metric": "transaction_costs",
+        "historical": null,
+        "walk_forward": null,
+        "reserved_oos": null,
+        "prospective": null
+      },
+      {
+        "metric": "gross_exposure",
+        "historical": 1.0000125649329779,
+        "walk_forward": null,
+        "reserved_oos": null,
+        "prospective": null
+      },
+      {
+        "metric": "signal_decay",
+        "historical": null,
+        "walk_forward": null,
+        "reserved_oos": null,
+        "prospective": null
+      },
+      {
+        "metric": "implementation_shortfall",
+        "historical": null,
+        "walk_forward": null,
+        "reserved_oos": null,
+        "prospective": null
+      }
+    ],
+    "replay": {
+      "verified": true,
+      "project_id": "1c1bbd37f14be77f449f0aa42ec17517181751f5965711be0cd505dedb42a1ac",
+      "development_trials": 1,
+      "reserved_oos_results": 1,
+      "survival_replays": 1,
+      "prospective_replayed": false,
+      "note": "Forward observations are records, not recreated historical returns."
+    },
+    "zip_sha256": "988ccf0d214fd4ca09bbd7d3c88a324fb7845197214c6b7edbdc4aa80df66d63"
+  },
+  "browser_example": {
+    "passed": true,
+    "project_id": "f9c8ec7f93d6729a6ef30506d1095e7635f1b918049b19dc82b9501620c28c86",
+    "title": "SYNTHETIC lifecycle browser acceptance 2026-10-05T11:56:37.294Z",
+    "trial_id": "7c4aefc5124be8109b21ee2e8cc82d9b7f5fd6cee34f86e106afe94dd8bbbd46",
+    "strategy_version_id": "1262a9e6f3e1870f5338c7aa4c2ede622b680c3b02c1a32791b915f28d156999",
+    "trials": 2,
+    "integrity": {
+      "trial_count": 2,
+      "failed_trials": 0,
+      "survival_parameter_attempts": 3,
+      "oos_reveals": 1,
+      "post_oos_revisions": 0,
+      "genuinely_unseen_oos": "UNKNOWN",
+      "live_execution": "NOT SUPPORTED",
+      "data_lineage": "VERIFIED: content hashes",
+      "lookahead": "TESTED: existing Survival prefix checks; not a proof",
+      "survivorship": "WARNING: selected universe",
+      "inference": "WARNING: recorded trials do not capture external research"
+    },
+    "validation": {
+      "counts": {
+        "FAIL": 0,
+        "N-A": 3,
+        "PASS": 1,
+        "WARN": 14
+      },
+      "hard_failures": [],
+      "interpretation": "Diagnostic coverage and configured gates, not a score or investment approval. WARN requires review; N-A is not evidence of survival.",
+      "live_eligible": false,
+      "research_gates_satisfied": true,
+      "status": "WARN",
+      "unresolved_failure_gates": [],
+      "unresolved_required_layers": []
+    },
+    "errors": [],
+    "output": "C:\\quant\\terminal-v2\\outputs\\verification\\project-browser-final-20261005",
+    "prospective_observations": 0,
+    "replay": {
+      "verified": true,
+      "project_id": "f9c8ec7f93d6729a6ef30506d1095e7635f1b918049b19dc82b9501620c28c86",
+      "development_trials": 2,
+      "reserved_oos_results": 1,
+      "survival_replays": 1,
+      "prospective_replayed": false,
+      "note": "Forward observations are records, not recreated historical returns."
+    },
+    "zip_sha256": "0f877e7aa68fecdcea4a90810390263bf23c7b8e3ece3c3d218fd9721aed88ca"
+  },
+  "limits": [
+    "No prospective observations manufactured",
+    "No authenticated external feed or broker execution verified",
+    "Historical OOS genuinely unseen status UNKNOWN",
+    "Unsupported adapters and diagnostics documented in docs/single-strategy-lifecycle.md"
+  ]
+}

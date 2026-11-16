@@ -1,0 +1,27 @@
+# Tested team setup: Custom LangChain, Gemini, Tavily and PDF exports.
+# Optional CrewAI dependencies are in requirements-crewai.txt.
+streamlit>=1.66.1
+langchain-google-genai>=1.0.6
+tavily-python>=0.3.3
+fpdf2>=2.7.9
+
+# Financial filing RAG and existing market tools
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+langchain-tavily
+pinecone
+langchain-pinecone
+langchain-text-splitters
+langgraph
+python-dotenv>=1.0.1
+pypdf
+requests
+yfinance
+matplotlib
+pandas
+
+# Development and maintenance
+pytest>=8.0.0
+ruff>=0.5.0

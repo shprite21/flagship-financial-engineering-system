@@ -1,0 +1,7 @@
+# Cointegration-Based Statistical Arbitrage
+
+Can validation-selected spread parameters outperform a fixed z-score rule after costs? The engine estimates hedge weights on a formation period, checks cointegration, and uses inner validation to select parameters only for eligible spreads. Each outer test starts with fresh capital. The reference rule uses a 20-session lookback with entry at 2 and exit at 0.5 standard deviations. Engle–Granger supports the two-asset study and Johansen supports basket research. [Estimator](../../apps/engine/qresearch/cointegration.py) · [Walk-forward optimizer and backtest](../../apps/engine/qresearch/basket.py)
+
+KO and PEP failed the 5% Engle–Granger eligibility threshold in all ten outer folds from January 4, 2021 through December 31, 2025. Formation p-values ranged from 0.217 to 0.939. Both the fixed and candidate accounts stayed in cash across 1,255 sessions. CAGR, maximum drawdown, turnover and execution cost were zero. Both Sharpe ratios are undefined because daily returns had zero variance. The cost reruns produced the same empty trading book. [Fold diagnostics](../../research/validation/results/folds.json) · [Research protocol and full results](../../research/validation/README.md)
+
+Open **Research evidence → Cointegration statistical arbitrage → Open workbench**. Import or select the history, choose the formation, validation and test lengths, then run the saved configuration. The study preserves the screening decisions that explain an empty account.

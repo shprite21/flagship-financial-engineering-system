@@ -1,0 +1,81 @@
+{
+  "accepted_date": "2026-10-06",
+  "timezone": "Asia/Calcutta",
+  "scope": "Bounded local Q V2 research core",
+  "python": {
+    "passed": 348,
+    "warnings": 4
+  },
+  "web": {
+    "passed": 67
+  },
+  "gateway": {
+    "passed": 39
+  },
+  "total_passed": 454,
+  "typescript": "passed",
+  "production_build": "passed",
+  "changed_ui_lint": "passed",
+  "repository_lint": {
+    "errors": 8,
+    "warnings": 9,
+    "status": "existing debt remains"
+  },
+  "browser": {
+    "passed": true,
+    "project_id": "5aa007476fd04651d2f684b918e41b2924eddedbe83f0d541fe38d0c9e44286d",
+    "title": "SYNTHETIC lifecycle browser acceptance 2026-10-05T20:44:18.166Z",
+    "trial_id": "963b4234999a13d2944e8d775ff5b2ed7efb725d91a5439287aa76a6c58ead87",
+    "strategy_version_id": "393512c676b5a31e9faf4f0303884ea0bdff40c3e514f67dd321194cc127c9aa",
+    "trials": 2,
+    "integrity": {
+      "trial_count": 2,
+      "failed_trials": 0,
+      "survival_parameter_attempts": 3,
+      "oos_reveals": 1,
+      "post_oos_revisions": 0,
+      "genuinely_unseen_oos": "UNKNOWN",
+      "live_execution": "NOT SUPPORTED",
+      "data_lineage": "VERIFIED: content hashes",
+      "lookahead": "TESTED: existing Survival prefix checks; not a proof",
+      "survivorship": "WARNING: selected universe",
+      "inference": "WARNING: recorded trials do not capture external research"
+    },
+    "validation": {
+      "counts": {
+        "FAIL": 0,
+        "N-A": 3,
+        "PASS": 1,
+        "WARN": 14
+      },
+      "hard_failures": [],
+      "interpretation": "Diagnostic coverage and configured gates, not a score or investment approval. WARN requires review; N-A is not evidence of survival.",
+      "live_eligible": false,
+      "research_gates_satisfied": true,
+      "status": "WARN",
+      "unresolved_failure_gates": [],
+      "unresolved_required_layers": []
+    },
+    "errors": [],
+    "output": "C:\\quant\\terminal-v2\\outputs\\verification\\finalization-browser-final-20261006",
+    "prospective_observations": 0
+  },
+  "replay": {
+    "verified": true,
+    "project_id": "5aa007476fd04651d2f684b918e41b2924eddedbe83f0d541fe38d0c9e44286d",
+    "development_trials": 2,
+    "reserved_oos_results": 1,
+    "survival_replays": 1,
+    "prospective_replayed": false,
+    "note": "Forward observations are records, not recreated historical returns."
+  },
+  "external_market_feed_verified": false,
+  "live_execution_enabled": false,
+  "limitations": [
+    "Synthetic mechanics demonstration, not market performance",
+    "Identical-dataset reservation guard is project-local, not a global overlap embargo",
+    "Unknown external historical exposure and search family",
+    "No forward observations invented",
+    "Fresh-machine CI and production operations not verified"
+  ]
+}

@@ -1,0 +1,28 @@
+project:
+  name: Systematic Equities Research Lab
+  subtitle: Institutional-Style Multi-Factor Quantitative Research & Portfolio Construction Framework
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  cache_dir: data/cached
+  fundamentals_dir: data/fundamentals
+  provider: yfinance
+  universe: demo_large_cap
+  incremental_update: true
+backtest:
+  trading_days: 252
+  rebalance_frequency: M
+  transaction_cost_bps: 5.0
+  slippage_bps: 2.0
+  target_gross_exposure: 1.0
+  max_position_weight: 0.05
+portfolio:
+  optimizer: max_sharpe
+  long_short: true
+  sector_neutral: false
+  beta_neutral: false
+regime:
+  volatility_window: 63
+  drawdown_window: 252
+  hmm_states: 3
+
